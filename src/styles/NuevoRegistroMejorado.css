@@ -1,0 +1,361 @@
+/* Mejoras UI específicas para NuevoRegistro.jsx */
+
+/* Estructura y Jerarquía Visual */
+.nuevo-registro-container {
+  background: linear-gradient(135deg, #fdf2f4 0%, #ffffff 50%, #fce7ea 100%) !important;
+  min-height: 100vh !important;
+}
+
+.section-header {
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
+  color: #1f2937 !important;
+  margin-bottom: 1.5rem !important;
+  padding: 1rem 1.5rem !important;
+  background: linear-gradient(90deg, #fdf2f4 0%, #ffffff 100%) !important;
+  border-radius: 0.75rem !important;
+  border-left: 4px solid #9d2148 !important;
+}
+
+.form-card {
+  background: #ffffff !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #f9d0d9 !important;
+  padding: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Inputs y Formularios Mejorados */
+.form-group {
+  margin-bottom: 2rem !important;
+}
+
+.form-label {
+  display: flex !important;
+  align-items: center !important;
+  font-size: 0.875rem !important;
+  font-weight: 700 !important;
+  color: #374151 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.form-label-icon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  margin-right: 0.5rem !important;
+  color: #9d2148 !important;
+}
+
+.form-input {
+  width: 100% !important;
+  padding: 1rem 1.25rem !important;
+  border: 2px solid #d1d5db !important;
+  border-radius: 0.75rem !important;
+  font-size: 1rem !important;
+  background-color: #ffffff !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.form-input:focus {
+  outline: none !important;
+  border-color: #9d2148 !important;
+  box-shadow: 0 0 0 3px rgba(157, 33, 72, 0.3) !important;
+}
+
+.form-input:hover {
+  border-color: #9d2148 !important;
+}
+
+.form-input.error {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1) !important;
+}
+
+.form-error {
+  color: #ef4444 !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  margin-top: 0.5rem !important;
+}
+
+/* Placeholders mejorados */
+.form-input::placeholder {
+  color: #9ca3af !important;
+  font-style: italic !important;
+}
+
+/* Área de carga de PDF mejorada */
+.pdf-upload-area {
+  border: 3px dashed #d1d5db !important;
+  border-radius: 1rem !important;
+  padding: 3rem 2rem !important;
+  text-align: center !important;
+  background: linear-gradient(145deg, #f9fafb 0%, #ffffff 100%) !important;
+  transition: all 0.3s ease-in-out !important;
+  cursor: pointer !important;
+}
+
+.pdf-upload-area:hover {
+  border-color: #9d2148 !important;
+  background: linear-gradient(145deg, #fdf2f4 0%, #f9fafb 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(157, 33, 72, 0.15) !important;
+}
+
+.pdf-upload-area.has-file {
+  border-color: #9d2148 !important;
+  background: linear-gradient(145deg, #fdf2f4 0%, #fce7ea 100%) !important;
+}
+
+.pdf-upload-icon {
+  width: 4rem !important;
+  height: 4rem !important;
+  color: #6b7280 !important;
+  margin-bottom: 1rem !important;
+}
+
+.pdf-upload-area:hover .pdf-upload-icon {
+  color: #9d2148 !important;
+}
+
+.pdf-file-info {
+  background: linear-gradient(145deg, #fdf2f4 0%, #fce7ea 100%) !important;
+  border: 2px solid #9d2148 !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  margin-top: 1rem !important;
+}
+
+/* Navegación entre pasos mejorada */
+.step-indicator {
+  margin-bottom: 3rem !important;
+}
+
+.step-circle {
+  width: 3rem !important;
+  height: 3rem !important;
+  border-radius: 50% !important;
+  border: 3px solid #d1d5db !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 700 !important;
+  transition: all 0.4s ease-in-out !important;
+}
+
+.step-circle.active {
+  background: linear-gradient(135deg, #9d2148 0%, #8f1c3d 100%) !important;
+  border-color: #9d2148 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 8px 25px rgba(157, 33, 72, 0.3) !important;
+}
+
+.step-circle.completed {
+  background: linear-gradient(135deg, #9d2148 0%, #8f1c3d 100%) !important;
+  border-color: #9d2148 !important;
+  color: #ffffff !important;
+}
+
+.step-line {
+  height: 3px !important;
+  background: #d1d5db !important;
+  border-radius: 1.5px !important;
+  transition: all 0.4s ease-in-out !important;
+}
+
+.step-line.active {
+  background: linear-gradient(90deg, #9d2148 0%, #b28e5c 100%) !important;
+}
+
+.step-label {
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  color: #6b7280 !important;
+  margin-top: 0.75rem !important;
+  text-align: center !important;
+}
+
+.step-label.active {
+  color: #9d2148 !important;
+  font-weight: 700 !important;
+}
+
+/* Botones de selección de acción mejorados */
+.action-card {
+  border: 2px solid #e5e7eb !important;
+  border-radius: 1rem !important;
+  padding: 2rem !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease-in-out !important;
+  background: linear-gradient(145deg, #ffffff 0%, #f9fafb 100%) !important;
+}
+
+.action-card:hover {
+  border-color: #9d2148 !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 25px rgba(157, 33, 72, 0.15) !important;
+}
+
+.action-card.selected {
+  border-color: #9d2148 !important;
+  background: linear-gradient(145deg, #fdf2f4 0%, #fce7ea 100%) !important;
+  box-shadow: 0 8px 25px rgba(157, 33, 72, 0.2) !important;
+  transform: scale(1.02) !important;
+}
+
+.action-card-icon {
+  width: 4rem !important;
+  height: 4rem !important;
+  margin: 0 auto 1rem auto !important;
+  padding: 1rem !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.action-card:hover .action-card-icon {
+  transform: scale(1.1) !important;
+}
+
+.action-card-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: #1f2937 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.action-card-description {
+  font-size: 0.875rem !important;
+  color: #6b7280 !important;
+  line-height: 1.5 !important;
+}
+
+/* Botones de navegación mejorados */
+.nav-button {
+  padding: 1rem 2rem !important;
+  border-radius: 0.75rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease-in-out !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.nav-button-primary {
+  background: linear-gradient(135deg, #9d2148 0%, #8f1c3d 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(157, 33, 72, 0.3) !important;
+}
+
+.nav-button-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(157, 33, 72, 0.4) !important;
+}
+
+.nav-button-secondary {
+  background: #ffffff !important;
+  color: #6b7280 !important;
+  border: 2px solid #e5e7eb !important;
+}
+
+.nav-button-secondary:hover {
+  border-color: #d1d5db !important;
+  background: #f9fafb !important;
+}
+
+.nav-button:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+}
+
+/* Mensajes de error y éxito mejorados */
+.alert {
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  margin-bottom: 2rem !important;
+  border-left: 4px solid !important;
+}
+
+.alert-error {
+  background: linear-gradient(145deg, #fef2f2 0%, #fee2e2 100%) !important;
+  border-left-color: #ef4444 !important;
+  color: #991b1b !important;
+}
+
+.alert-success {
+  background: linear-gradient(145deg, #fdf2f4 0%, #fce7ea 100%) !important;
+  border-left-color: #9d2148 !important;
+  color: #8f1c3d !important;
+}
+
+/* Animaciones de transición */
+.page-transition {
+  transition: all 0.4s ease-in-out !important;
+}
+
+.page-transition.fade-out {
+  opacity: 0 !important;
+  transform: translateX(-20px) !important;
+}
+
+.page-transition.fade-in {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+
+/* Responsive mejorado */
+@media (max-width: 768px) {
+  .form-card {
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .nav-button {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .action-card {
+    margin-bottom: 1rem !important;
+  }
+  
+  .step-indicator {
+    margin-bottom: 2rem !important;
+  }
+}
+
+/* Mejoras de accesibilidad */
+.form-input:focus-visible {
+  outline: 2px solid #9d2148 !important;
+  outline-offset: 2px !important;
+}
+
+.nav-button:focus-visible {
+  outline: 2px solid #9d2148 !important;
+  outline-offset: 2px !important;
+}
+
+/* Tooltips mejorados */
+.tooltip {
+  position: relative !important;
+}
+
+.tooltip:hover::after {
+  content: attr(data-tooltip) !important;
+  position: absolute !important;
+  bottom: 100% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  background: #1f2937 !important;
+  color: #ffffff !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.375rem !important;
+  font-size: 0.875rem !important;
+  white-space: nowrap !important;
+  z-index: 1000 !important;
+}

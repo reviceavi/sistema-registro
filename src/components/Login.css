@@ -1,0 +1,286 @@
+/* Login Component - Diseño Compacto y Elegante */
+/* Sobrescribe estilos globales con especificidad alta */
+
+:root {
+  --login-primary: #b28e5c;
+  --login-secondary: #9d2148;
+  --login-border-radius: 20px;
+  --login-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --login-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --login-shadow-hover: 0 35px 60px -12px rgba(0, 0, 0, 0.3);
+}
+
+/* Animaciones suaves */
+@keyframes loginFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes loginScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Contenedor principal del login */
+.login-container {
+  animation: loginFadeInUp 0.8s ease-out !important;
+}
+
+/* Contenedor del formulario - diseño premium */
+.login-form-container {
+  animation: loginScaleIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both !important;
+  border-radius: var(--login-border-radius) !important;
+  box-shadow: var(--login-shadow) !important;
+  padding: 2.5rem !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px) !important;
+  max-width: 460px !important;
+  margin: 0 auto !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  position: relative !important;
+}
+
+.login-form-container::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background: linear-gradient(135deg, rgba(178, 142, 92, 0.05) 0%, rgba(157, 33, 72, 0.05) 100%) !important;
+  border-radius: var(--login-border-radius) !important;
+  z-index: -1 !important;
+}
+
+/* Iconos del login premium */
+.login-icon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  flex-shrink: 0 !important;
+  color: var(--login-primary) !important;
+  opacity: 0.8 !important;
+  transition: all 0.3s ease !important;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) !important;
+}
+
+.login-input:focus + .login-icon,
+.login-input:focus ~ * .login-icon {
+  color: var(--login-secondary) !important;
+  opacity: 1 !important;
+  transform: scale(1.1) !important;
+}
+
+/* Botón del ojo premium */
+.password-toggle-btn {
+  z-index: 10 !important;
+  pointer-events: auto !important;
+  padding: 0.5rem !important;
+  position: absolute !important;
+  right: 0.25rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(178, 142, 92, 0.2) !important;
+  border-radius: 8px !important;
+  margin: 0 !important;
+  font-size: inherit !important;
+  color: var(--login-primary) !important;
+  opacity: 0.8 !important;
+  transition: all 0.3s ease !important;
+  backdrop-filter: blur(5px) !important;
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.password-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: var(--login-primary) !important;
+  color: var(--login-secondary) !important;
+  opacity: 1 !important;
+  transform: translateY(-50%) scale(1.05) !important;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.1) !important;
+}
+
+.login-form-container .relative button[type="button"] {
+  z-index: 10 !important;
+  pointer-events: auto !important;
+  padding: 0.5rem !important;
+  position: absolute !important;
+  right: 0.25rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(178, 142, 92, 0.2) !important;
+  border-radius: 8px !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+/* Responsive premium */
+
+/* Campos de input premium */
+.login-input {
+  border-radius: 12px !important;
+  transition: var(--login-transition) !important;
+  background-color: rgba(249, 250, 251, 0.8) !important;
+  border: 2px solid rgba(229, 231, 235, 0.6) !important;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  padding-right: 1rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+.login-input:focus {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-color: var(--login-primary) !important;
+  box-shadow: 0 0 0 4px rgba(178, 142, 92, 0.15), 0 10px 25px -5px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-2px) scale(1.02) !important;
+  outline: none !important;
+}
+
+.login-input:hover {
+  border-color: rgba(178, 142, 92, 0.7) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Botón de login premium */
+.login-button {
+  border-radius: 12px !important;
+  transition: var(--login-transition) !important;
+  border: none !important;
+  background: linear-gradient(135deg, var(--login-primary) 0%, var(--login-secondary) 100%) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  padding: 1rem 1.5rem !important;
+  font-size: 1.1rem !important;
+  min-height: 52px !important;
+  box-shadow: 0 10px 25px -5px rgba(178, 142, 92, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.1) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.login-button::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: -100% !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent) !important;
+  transition: left 0.5s !important;
+}
+
+.login-button:hover::before {
+  left: 100% !important;
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, var(--login-secondary) 0%, var(--login-primary) 100%) !important;
+  color: white !important;
+  transform: translateY(-3px) scale(1.02) !important;
+  box-shadow: var(--login-shadow-hover) !important;
+}
+
+.login-button:active {
+  transform: translateY(-1px) scale(0.98) !important;
+}
+
+.login-button:disabled {
+  transform: none !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+  opacity: 0.6 !important;
+  background: rgba(107, 114, 128, 0.5) !important;
+}
+
+/* Responsive premium */
+@media (max-width: 640px) {
+  .login-form-container {
+    margin: 1rem !important;
+    padding: 2rem !important;
+    max-width: calc(100vw - 2rem) !important;
+    border-radius: 16px !important;
+  }
+  
+  .login-input {
+    padding: 0.7rem 3rem 0.7rem 2.5rem !important;
+    font-size: 1rem !important;
+  }
+  
+  .login-button {
+    padding: 0.9rem 1.2rem !important;
+    font-size: 1rem !important;
+    min-height: 48px !important;
+  }
+
+  .password-toggle-btn {
+    width: 32px !important;
+    height: 32px !important;
+    right: 0.5rem !important;
+  }
+}
+
+/* Focus ring específico para login */
+.login-focus-ring:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(178, 142, 92, 0.2) !important;
+}
+
+/* Asegurar que las transiciones del login no sean sobrescritas */
+.login-container *,
+.login-form-container *,
+.login-input,
+.login-button {
+  transition: var(--login-transition) !important;
+}
+
+/* Efectos de cristal adicionales */
+.login-form-container {
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(255, 255, 255, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Animación sutil en el contenedor principal */
+.login-container {
+  animation: loginFadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Labels mejorados */
+.login-form-container label {
+  color: #374151 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Error mejorado con glassmorphism */
+.login-form-container .bg-red-50\/90 {
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  background: rgba(254, 226, 226, 0.9) !important;
+  border: 1.5px solid rgba(239, 68, 68, 0.3) !important;
+  box-shadow: 0 4px 6px -1px rgba(239, 68, 68, 0.1) !important;
+}

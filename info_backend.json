@@ -1,0 +1,509 @@
+{
+  "generated_at": "2025-09-01T00:00:00-06:00",
+  "preamble": "Informe del backend (backend-registro) en formato JSON listo para copiar.",
+  "checklist": [
+    "Tecnologías y configuración",
+    "Endpoints/API y acciones personalizadas",
+    "Serializers y campos expuestos",
+    "Modelos (tablas) con columnas y tipos",
+    "Relaciones y conexiones",
+    "Observaciones críticas y recomendaciones"
+  ],
+  "technologies": {
+    "framework": "Django 5.x",
+    "api": "Django REST Framework",
+    "auth": "JWT (rest_framework_simplejwt) + Djoser",
+    "cors": "django-cors-headers",
+    "db_handling": "dj_database_url (DATABASE_URL) with SQLite fallback",
+    "storage": "FileField usage (assumes local FS unless configured)",
+    "other": [
+      "django-filters",
+      "whitenoise",
+      "djoser"
+    ]
+  },
+  "settings_summary": {
+    "file": "`sistema_registro_api/settings.py`",
+    "key_points": {
+      "AUTH_USER_MODEL": "`usuarios.CustomUser`",
+      "DEFAULT_PERMISSION": "IsAuthenticated (global)",
+      "DEFAULT_AUTHENTICATION": "JWTAuthentication",
+      "SIMPLE_JWT": "access 1h / refresh 7d / rotate refresh tokens",
+      "DATABASE": "uses DATABASE_URL via dj_database_url; fallback to SQLite db.sqlite3",
+      "STATIC": "STATIC_URL + STATIC_ROOT set",
+      "MEDIA": "MEDIA_ROOT / MEDIA_URL NOT defined (observación)",
+      "CORS": "CORS_ALLOWED_ORIGINS set; CORS_ALLOW_CREDENTIALS=True; CORS_ALLOW_ALL_ORIGINS=DEBUG"
+    }
+  },
+  "apis": [
+    {
+      "prefix": "/api/control-gestion/",
+      "routes": [
+        {
+          "path": "expedientes/",
+          "viewset": "ExpedienteViewSet",
+          "actions": ["CRUD", "GET /expedientes/estadisticas/"]
+        },
+        {
+          "path": "turno-cie/",
+          "viewset": "TurnoCieViewSet",
+          "actions": ["CRUD", "GET /turno-cie/estadisticas/"]
+        },
+        {
+          "path": "solicitudes-registro/",
+          "viewset": "SolicitudRegistroViewSet",
+          "actions": ["CRUD", "GET /solicitudes-registro/estadisticas/"]
+        },
+        {
+          "path": "oficios-salida/",
+          "viewset": "OficioSalidaViewSet",
+          "actions": ["CRUD", "GET /oficios-salida/estadisticas/"]
+        },
+        {
+          "path": "oficios-entrada/",
+          "viewset": "OficioEntradaViewSet",
+          "actions": [
+            "CRUD",
+            "list filter `tiene_archivo`",
+            "GET {id}/descargar_pdf/",
+            "GET {id}/vista_previa_pdf/",
+            "GET {id}/info_pdf/",
+            "GET con_archivos/",
+            "GET sin_archivos/",
+            "GET estadisticas/"
+          ]
+        },
+        {
+          "path": "notificaciones/",
+          "viewset": "NotificacionViewSet",
+          "actions": ["CRUD", "GET /notificaciones/estadisticas/"]
+        }
+      ]
+    },
+    {
+      "prefix": "/api/padron-victimas/",
+      "routes": [
+        {
+          "path": "victima/",
+          "viewset": "VictimaViewSet",
+          "actions": ["CRUD", "GET /victima/estadisticas/", "GET /victima/busqueda_avanzada/"]
+        },
+        {
+          "path": "padron-temporal/",
+          "viewset": "PadronTemporalViewSet",
+          "actions": [
+            "CRUD",
+            "POST crear_multiple/",
+            "POST {id}/aprobar/",
+            "POST {id}/rechazar/",
+            "GET pendientes/",
+            "GET estadisticas/"
+          ]
+        }
+      ]
+    },
+    {
+      "prefix": "/api/",
+      "routes": [
+        {
+          "path": "auth/",
+          "source": "djoser",
+          "notes": "login/register/jwt endpoints"
+        }
+      ]
+    }
+  ],
+  "serializers": [
+    {
+      "file": "`control_gestion/serializers.py`",
+      "list": [
+        {
+          "name": "ExpedienteSerializer",
+          "model": "Expediente",
+          "fields": "__all__",
+          "read_only": ["id", "fecha_creacion", "fecha_actualizacion"]
+        },
+        {
+          "name": "TurnoCieSerializer",
+          "model": "TurnoCie",
+          "fields": "__all__",
+          "read_only": ["id", "fecha_creacion", "fecha_actualizacion"]
+        },
+        {
+          "name": "SolicitudRegistroSerializer",
+          "model": "SolicitudRegistro",
+          "fields": "__all__",
+          "read_only": ["id", "fecha_creacion", "fecha_actualizacion"]
+        },
+        {
+          "name": "OficioSalidaSerializer",
+          "model": "OficioSalida",
+          "fields": "__all__",
+          "read_only": ["id", "fecha_creacion", "fecha_actualizacion"]
+        },
+        {
+          "name": "OficioEntradaSerializer",
+          "model": "OficioEntrada",
+          "fields": "__all__",
+          "extra_readonly": ["archivo_url", "archivo_nombre", "tiene_archivo", "download_url", "preview_url"]
+        },
+        {
+          "name": "NotificacionSerializer",
+          "model": "Notificacion",
+          "fields": "__all__",
+          "read_only": ["id", "fecha_creacion", "fecha_actualizacion"]
+        }
+      ]
+    },
+    {
+      "file": "`padron_victimas/serializers.py`",
+      "list": [
+        {
+          "name": "VictimaListSerializer",
+          "model": "Victima",
+          "notes": "exposes identifiers, demographic, case, contact, metadata; create() assigns usuario_registro from request.user"
+        },
+        {
+          "name": "PadronTemporalSerializer",
+          "model": "PadronTemporal",
+          "notes": "general temporal serializer"
+        },
+        {
+          "name": "PadronTemporalCreateSerializer",
+          "model": "PadronTemporal",
+          "notes": "optimized for frontend creation"
+        },
+        {
+          "name": "PadronTemporalRevisionSerializer",
+          "model": "PadronTemporal",
+          "fields": ["estado", "comentarios", "usuario_revisor"],
+          "behavior": "sets fecha_revision when state becomes APROBADO or RECHAZADO"
+        }
+      ]
+    },
+    {
+      "file": "`usuarios/serializers.py`",
+      "list": [
+        {
+          "name": "CustomUserCreateSerializer",
+          "extends": "djoser.UserCreateSerializer",
+          "fields": [
+            "email",
+            "username",
+            "first_name",
+            "last_name",
+            "area_trabajo",
+            "puesto",
+            "telefono",
+            "password",
+            "password_confirm"
+          ],
+          "validate": "password must match password_confirm"
+        },
+        {
+          "name": "CustomUserSerializer",
+          "fields": [
+            "id",
+            "email",
+            "username",
+            "first_name",
+            "last_name",
+            "full_name",
+            "area_trabajo",
+            "puesto",
+            "telefono",
+            "is_staff",
+            "is_active",
+            "fecha_registro",
+            "fecha_actualizacion",
+            "last_login"
+          ]
+        }
+      ]
+    }
+  ],
+  "models_summary": [
+    {
+      "app": "control_gestion",
+      "models": [
+        {
+          "name": "Expediente",
+          "fields": [
+            {"name": "solicitud", "type": "TextField"},
+            {"name": "victimas_directas", "type": "TextField"},
+            {"name": "victimas_indirectas", "type": "TextField"},
+            {"name": "numeros_registro", "type": "TextField"},
+            {"name": "num_reco_carpeta", "type": "TextField"},
+            {"name": "resguardo", "type": "TextField"},
+            {"name": "ubicacion", "type": "TextField"},
+            {"name": "hecho_victimizante", "type": "TextField"},
+            {"name": "estatus", "type": "TextField"},
+            {"name": "notas", "type": "TextField"},
+            {"name": "fecha_turno_cie", "type": "TextField"},
+            {"name": "usuario", "type": "ForeignKey(CustomUser)", "nullable": true},
+            {"name": "fecha_creacion", "type": "DateTimeField"},
+            {"name": "fecha_actualizacion", "type": "DateTimeField"}
+          ]
+        },
+        {
+          "name": "TurnoCie",
+          "fields": [
+            {"name": "anio", "type": "TextField"},
+            {"name": "victimas_relacionadas", "type": "TextField"},
+            {"name": "fecha_recepcion_cie", "type": "TextField"},
+            {"name": "num_registro", "type": "TextField"},
+            {"name": "acuse_cie", "type": "TextField"},
+            {"name": "num_sol", "type": "TextField"},
+            {"name": "oficio_salida", "type": "TextField"},
+            {"name": "usuaria", "type": "TextField"},
+            {"name": "tipo", "type": "TextField"},
+            {"name": "usuario", "type": "ForeignKey(CustomUser)", "nullable": true},
+            {"name": "fecha_creacion", "type": "DateTimeField"},
+            {"name": "fecha_actualizacion", "type": "DateTimeField"}
+          ]
+        },
+        {
+          "name": "SolicitudRegistro",
+          "fields": [
+            {"name": "anio", "type": "TextField"},
+            {"name": "identificaciones", "type": "TextField"},
+            {"name": "fecha_solicitud", "type": "TextField"},
+            {"name": "recomendacion", "type": "TextField"},
+            {"name": "tipo_resolucion", "type": "TextField"},
+            {"name": "estatus_solicitud", "type": "TextField"},
+            {"name": "reconocimiento_victima", "type": "TextField"},
+            {"name": "delito", "type": "TextField"},
+            {"name": "actas", "type": "TextField"},
+            {"name": "fecha_completo", "type": "TextField"},
+            {"name": "fuds", "type": "TextField"},
+            {"name": "curp", "type": "TextField"},
+            {"name": "fecha_resolucion", "type": "TextField"},
+            {"name": "solicitante", "type": "TextField"},
+            {"name": "aceptacion", "type": "TextField"},
+            {"name": "tiempo_resolucion", "type": "TextField"},
+            {"name": "numero_solicitud", "type": "TextField"},
+            {"name": "solicitud", "type": "TextField"},
+            {"name": "persona_usuaria", "type": "TextField"},
+            {"name": "usuario", "type": "ForeignKey(CustomUser)", "nullable": true},
+            {"name": "fecha_creacion", "type": "DateTimeField"},
+            {"name": "fecha_actualizacion", "type": "DateTimeField"}
+          ]
+        },
+        {
+          "name": "OficioSalida",
+          "fields": [
+            {"name": "anio", "type": "TextField"},
+            {"name": "destinatario", "type": "TextField"},
+            {"name": "asunto", "type": "TextField"},
+            {"name": "tipo_envio", "type": "TextField"},
+            {"name": "numero_oficio", "type": "TextField"},
+            {"name": "alfanumerica_oficio", "type": "TextField"},
+            {"name": "fecha", "type": "TextField"},
+            {"name": "solicitante", "type": "TextField"},
+            {"name": "usuario", "type": "ForeignKey(CustomUser)", "nullable": true},
+            {"name": "fecha_creacion", "type": "DateTimeField"},
+            {"name": "fecha_actualizacion", "type": "DateTimeField"}
+          ]
+        },
+        {
+          "name": "OficioEntrada",
+          "fields": [
+            {"name": "anio", "type": "TextField"},
+            {"name": "remitente", "type": "TextField"},
+            {"name": "numero_entrada", "type": "TextField"},
+            {"name": "alfanumerica_entrada", "type": "TextField"},
+            {"name": "entrada", "type": "TextField"},
+            {"name": "autoridad_dependencia", "type": "TextField"},
+            {"name": "asunto", "type": "TextField"},
+            {"name": "numero", "type": "TextField"},
+            {"name": "formato", "type": "TextField"},
+            {"name": "termino", "type": "TextField"},
+            {"name": "archivo", "type": "FileField(upload_to='oficios_entrada/')", "nullable": true},
+            {"name": "usuario", "type": "ForeignKey(CustomUser)", "nullable": true},
+            {"name": "fecha_creacion", "type": "DateTimeField"},
+            {"name": "fecha_actualizacion", "type": "DateTimeField"}
+          ]
+        },
+        {
+          "name": "Notificacion",
+          "fields": [
+            {"name": "persona_notificada", "type": "TextField"},
+            {"name": "nucleo_familiar", "type": "TextField"},
+            {"name": "relovi", "type": "TextField"},
+            {"name": "delito_recomendacion", "type": "TextField"},
+            {"name": "funcionario_notifico", "type": "TextField"},
+            {"name": "fecha", "type": "TextField"},
+            {"name": "lugar_notificacion", "type": "TextField"},
+            {"name": "soporte_documental", "type": "TextField"},
+            {"name": "usuario", "type": "ForeignKey(CustomUser)", "nullable": true},
+            {"name": "fecha_creacion", "type": "DateTimeField"},
+            {"name": "fecha_actualizacion", "type": "DateTimeField"}
+          ]
+        }
+      ]
+    },
+    {
+      "app": "padron_victimas",
+      "models": [
+        {
+          "name": "Victima",
+          "fields_summary": [
+            "anio (CharField choices)",
+            "tipo_victima (CharField choices)",
+            "reconocimiento_calidad_victima",
+            "post_mortem",
+            "nna",
+            "gap",
+            "parentesco",
+            "alcaldia_hecho_victimizante",
+            "numero_registro_csv (TextField)",
+            "alfanumerica_registro (TextField)",
+            "nombre_victima_csv (TextField)",
+            "fecha_registro_csv (TextField)",
+            "numero_registro (CharField)",
+            "nombre (CharField)",
+            "apellido_paterno/materno (CharField)",
+            "fecha_nacimiento (DateField)",
+            "sexo (CharField choices)",
+            "curp (CharField 18 with RegexValidator)",
+            "telefono/email/direccion",
+            "tipo_victimizacion (CharField)",
+            "fecha_hechos (DateField)",
+            "lugar_hechos (CharField)",
+            "estado (CharField choices)",
+            "observaciones (TextField)",
+            "numero_orden (IntegerField calculated)",
+            "usuario_registro (ForeignKey CustomUser, SET_NULL)",
+            "fecha_registro/actualizacion (DateTimeFields)"
+          ],
+          "indexes": [
+            "alfanumerica_registro",
+            "numero_registro_csv",
+            "anio",
+            "tipo_victima",
+            "numero_registro",
+            "curp",
+            "fecha_hechos",
+            "estado"
+          ]
+        },
+        {
+          "name": "PadronTemporal",
+          "fields_summary": [
+            "fecha_creacion/actualizacion, estado, comentarios, usuario_revisor (CharField)",
+            "nombre/apellidos/sexo/fecha_nacimiento/curp/edad_hechos",
+            "delito_principal, tipo_victimizacion",
+            "fecha_hechos, tipo_lugar_hechos",
+            "numero_registro, alfanumerica_registro, año, estado_registro",
+            "numero_orden, fecha_registro (nullable)"
+          ]
+        }
+      ]
+    },
+    {
+      "app": "usuarios",
+      "models": [
+        {
+          "name": "CustomUser",
+          "fields": [
+            {"name": "email", "type": "EmailField(unique)"},
+            {"name": "first_name", "type": "CharField"},
+            {"name": "last_name", "type": "CharField"},
+            {"name": "area_trabajo", "type": "CharField(nullable)"},
+            {"name": "puesto", "type": "CharField(nullable)"},
+            {"name": "telefono", "type": "CharField(nullable)"},
+            {"name": "fecha_registro", "type": "DateTimeField(auto_now_add)"},
+            {"name": "fecha_actualizacion", "type": "DateTimeField(auto_now)"}
+          ],
+          "auth_config": "USERNAME_FIELD='email', REQUIRED_FIELDS=['username','first_name','last_name']"
+        }
+      ]
+    }
+  ],
+  "relationships_and_integrations": {
+    "foreign_keys": [
+      "many control_gestion models -> usuarios.CustomUser",
+      "padron_victimas.Victima.usuario_registro -> usuarios.CustomUser (SET_NULL)"
+    ],
+    "file_storage": "`OficioEntrada.archivo` stored via FileField; views use `.path` and `.url` (assumes local filesystem). If remote storage used, `.path` will break.",
+    "management_commands": "CSV import and PDF association scripts present under control_gestion and padron_victimas management/commands.",
+    "auth_flow": "Djoser + JWT for registration/auth; viewsets expect authenticated users by default."
+  },
+  "observations_and_issues": [
+    {
+      "id": 1,
+      "title": "MEDIA not configured",
+      "detail": "No MEDIA_ROOT / MEDIA_URL in settings.py. FileField usage assumes local storage; define MEDIA settings and configure storage for production."
+    },
+    {
+      "id": 2,
+      "title": "File handling assumes local filesystem",
+      "detail": "Views use oficio.archivo.path and open files directly. For remote storages (S3) use storage API or presigned URLs."
+    },
+    {
+      "id": 3,
+      "title": "Hardcoded URL building in serializers",
+      "detail": "OficioEntradaSerializer constructs download/preview URLs by string concatenation; prefer Django reverse() to build action URLs."
+    },
+    {
+      "id": 4,
+      "title": "CORS headers set manually in responses",
+      "detail": "Some responses add Access-Control-Allow-Origin manually; rely on django-cors-headers to avoid inconsistencies (especially with credentials)."
+    },
+    {
+      "id": 5,
+      "title": "Normalization vs Raw CSV fields",
+      "detail": "Many CSV fields stored as TextField (dates as text). Consider parsing to DateField/IntegerField during import for better queries and indexing."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "text": "Define MEDIA_ROOT and MEDIA_URL in `sistema_registro_api/settings.py` and serve MEDIA in DEBUG; configure cloud storage (django-storages + S3) for production."
+    },
+    {
+      "priority": "high",
+      "text": "Refactor file-serving views (`descargar_pdf`, `vista_previa_pdf`, `info_pdf`) to use Django storage API (e.g., default_storage.open) and support remote storage; use streaming responses."
+    },
+    {
+      "priority": "medium",
+      "text": "Remove manual CORS headers from responses and rely on django-cors-headers configuration; ensure CORS_ALLOWED_ORIGINS matches CORS_ALLOW_CREDENTIALS usage."
+    },
+    {
+      "priority": "medium",
+      "text": "Use reverse() to build internal action URLs in serializers instead of string concatenation."
+    },
+    {
+      "priority": "low",
+      "text": "Normalize important CSV fields (dates, numeric ids) during import; add unit tests for import scripts and PDF endpoints."
+    }
+  ],
+  "files_of_interest": [
+    "`sistema_registro_api/settings.py`",
+    "`sistema_registro_api/urls.py`",
+    "`control_gestion/models.py`",
+    "`control_gestion/serializers.py`",
+    "`control_gestion/views.py`",
+    "`control_gestion/urls.py`",
+    "`padron_victimas/models.py`",
+    "`padron_victimas/serializers.py`",
+    "`padron_victimas/views.py`",
+    "`usuarios/models.py`",
+    "`usuarios/serializers.py`"
+  ],
+  "requirements_coverage": {
+    "tecnologias": "Done",
+    "api": "Done",
+    "serializers": "Done",
+    "links": "Done (URLs and hardcoded notes)",
+    "conexiones": "Done (FKs and management commands)",
+    "tablas_columnas_tipos": "Done (models summary)"
+  },
+  "next_steps_suggestion": [
+    "Agregar MEDIA_ROOT/MEDIA_URL en `settings.py`",
+    "Actualizar vistas de `control_gestion` para usar storage API y soportar almacenamiento remoto",
+    "Reemplazar construcción de URLs por reverse() en serializadores",
+    "Ejecutar tests unitarios y de endpoints de archivos"
+  ],
+  "short_id": "informe-backend-20250901"
+}

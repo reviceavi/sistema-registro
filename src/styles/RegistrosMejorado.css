@@ -1,0 +1,317 @@
+/* Mejoras UI específicas para Registros.jsx */
+
+/* Contenedor principal */
+.registros-container {
+  background: linear-gradient(135deg, #fdf2f4 0%, #ffffff 50%, #fce7ea 100%) !important;
+  min-height: 100vh !important;
+}
+
+/* Header mejorado */
+.registros-header {
+  background: linear-gradient(135deg, #ffffff 0%, #fdf2f4 100%) !important;
+  border-radius: 1.5rem !important;
+  padding: 2rem !important;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid #f9d0d9 !important;
+}
+
+.registros-header h1 {
+  color: #8f1c3d !important;
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 1rem !important;
+}
+
+.registros-header p {
+  color: #6b7280 !important;
+  font-size: 1.125rem !important;
+}
+
+/* Filtros y búsqueda mejorados */
+.filtros-card {
+  background: linear-gradient(135deg, #ffffff 0%, #fdf2f4 100%) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #f9d0d9 !important;
+  padding: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.search-input {
+  padding: 1rem 1.25rem 1rem 3rem !important;
+  border: 2px solid #d1d5db !important;
+  border-radius: 1rem !important;
+  font-size: 1rem !important;
+  background-color: #ffffff !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.search-input:focus {
+  outline: none !important;
+  border-color: #9d2148 !important;
+  box-shadow: 0 0 0 3px rgba(157, 33, 72, 0.1) !important;
+}
+
+.search-icon {
+  color: #9d2148 !important;
+}
+
+.filter-select {
+  padding: 1rem 1.25rem !important;
+  border: 2px solid #d1d5db !important;
+  border-radius: 1rem !important;
+  font-size: 1rem !important;
+  background-color: #ffffff !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.filter-select:focus {
+  outline: none !important;
+  border-color: #9d2148 !important;
+  box-shadow: 0 0 0 3px rgba(157, 33, 72, 0.1) !important;
+}
+
+/* Cards de registro mejoradas */
+.registro-card {
+  background: linear-gradient(135deg, #ffffff 0%, #fefbf3 100%) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid #f9d0d9 !important;
+  padding: 2rem !important;
+  margin-bottom: 1.5rem !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.registro-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 12px 30px rgba(157, 33, 72, 0.1) !important;
+  border-color: #f5aeb8 !important;
+}
+
+.registro-nombre {
+  color: #8f1c3d !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Estados mejorados con paleta del proyecto */
+.estado-pendiente {
+  background: linear-gradient(135deg, #fdf4e0 0%, #fce8c0 100%) !important;
+  color: #8b6b3a !important;
+  border: 1px solid #f5c468 !important;
+}
+
+.estado-aprobado {
+  background: linear-gradient(135deg, #fdf2f4 0%, #fce7ea 100%) !important;
+  color: #8f1c3d !important;
+  border: 1px solid #9d2148 !important;
+}
+
+.estado-rechazado {
+  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%) !important;
+  color: #991b1b !important;
+  border: 1px solid #ef4444 !important;
+}
+
+.estado-revision {
+  background: linear-gradient(135deg, #fdf2f4 0%, #f5aeb8 100%) !important;
+  color: #8f1c3d !important;
+  border: 1px solid #d72f89 !important;
+}
+
+.tipo-victima-directa {
+  background: linear-gradient(135deg, #fdf2f4 0%, #fce7ea 100%) !important;
+  color: #8f1c3d !important;
+  border: 1px solid #9d2148 !important;
+}
+
+.tipo-victima-indirecta {
+  background: linear-gradient(135deg, #fdf4e0 0%, #fce8c0 100%) !important;
+  color: #8b6b3a !important;
+  border: 1px solid #b28e5c !important;
+}
+
+/* Badges mejorados */
+.estado-badge, .tipo-badge {
+  padding: 0.5rem 1rem !important;
+  border-radius: 50px !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.025em !important;
+}
+
+/* Información del registro */
+.registro-info-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.registro-info-item {
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%) !important;
+  padding: 1rem !important;
+  border-radius: 0.75rem !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.registro-info-label {
+  color: #6b7280 !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.registro-info-value {
+  color: #1f2937 !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+}
+
+/* Comentarios */
+.comentarios-section {
+  background: linear-gradient(135deg, #fdf2f4 0%, #fce7ea 100%) !important;
+  border-radius: 1rem !important;
+  padding: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border: 1px solid #f9d0d9 !important;
+}
+
+.comentarios-header {
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.comentarios-icon {
+  color: #9d2148 !important;
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.comentarios-title {
+  color: #8f1c3d !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+}
+
+.comentarios-text {
+  color: #6b7280 !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+}
+
+/* Botones de acción mejorados */
+.btn-aprobar {
+  background: linear-gradient(135deg, #9d2148 0%, #8f1c3d 100%) !important;
+  color: #ffffff !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.75rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(157, 33, 72, 0.3) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.btn-aprobar:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(157, 33, 72, 0.4) !important;
+}
+
+.btn-rechazar {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%) !important;
+  color: #ffffff !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.75rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.btn-rechazar:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(239, 68, 68, 0.4) !important;
+}
+
+/* Modal mejorado */
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.modal-content {
+  background: linear-gradient(135deg, #ffffff 0%, #fdf2f4 100%) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid #f9d0d9 !important;
+}
+
+.modal-title {
+  color: #8f1c3d !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+}
+
+.modal-textarea {
+  padding: 1rem !important;
+  border: 2px solid #d1d5db !important;
+  border-radius: 0.75rem !important;
+  background-color: #ffffff !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.modal-textarea:focus {
+  outline: none !important;
+  border-color: #9d2148 !important;
+  box-shadow: 0 0 0 3px rgba(157, 33, 72, 0.1) !important;
+}
+
+/* Estados vacíos */
+.empty-state {
+  text-align: center !important;
+  padding: 4rem 2rem !important;
+}
+
+.empty-state-icon {
+  width: 4rem !important;
+  height: 4rem !important;
+  color: #9d2148 !important;
+  margin: 0 auto 1rem auto !important;
+}
+
+.empty-state-text {
+  color: #6b7280 !important;
+  font-size: 1.125rem !important;
+  font-weight: 500 !important;
+}
+
+/* Loading state */
+.loading-spinner {
+  border-color: #f3f4f6 !important;
+  border-top-color: #9d2148 !important;
+}
+
+/* Responsive mejorado */
+@media (max-width: 768px) {
+  .registros-header {
+    padding: 1.5rem !important;
+  }
+  
+  .registro-card {
+    padding: 1.5rem !important;
+  }
+  
+  .filtros-card {
+    padding: 1.5rem !important;
+  }
+  
+  .registro-info-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+}

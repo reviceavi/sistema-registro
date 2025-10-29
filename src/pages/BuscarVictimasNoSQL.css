@@ -1,0 +1,22 @@
+/* Estilos simples reutilizables basados en BuscarVictimas.css pero más compactos */
+:root{--burgundy:#7b1122;--gold:#c9922a}
+.bv-page{background:linear-gradient(180deg,#ffffff,#fbfbfb);min-height:100vh}
+.card{background:rgba(255,255,255,0.9);border:1px solid rgba(17,24,39,0.06);box-shadow:0 10px 30px rgba(2,6,23,0.05);border-radius:14px;padding:20px}
+.title{font-size:1.5rem;color:var(--burgundy);font-weight:700;margin-bottom:6px}
+.muted{color:#6b7280;margin-bottom:12px}
+.search-form{display:flex;gap:8px;margin-bottom:12px}
+.search-input{flex:1;padding:10px 12px;border-radius:10px;border:1px solid rgba(17,24,39,0.08)}
+.btn{background:var(--burgundy);color:#fff;padding:8px 12px;border-radius:10px;border:none}
+.stats{margin-bottom:10px;color:#374151}
+.loading{color:#6b7280;margin:8px 0}
+.error{color:#b91c1c;margin:8px 0}
+.results-table{width:100%;border-collapse:separate;border-spacing:0 8px}
+.results-table thead th{font-size:12px;text-align:left;color:#6b7280;padding:6px 10px}
+.results-table tbody tr{background:#fff;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.04)}
+.results-table td{padding:10px;border-bottom:none}
+.results-table .mono{font-family:ui-monospace,monospace;font-size:13px;color:#374151}
+.empty{text-align:center;color:#6b7280;padding:18px}
+.pagination{display:flex;gap:10px;align-items:center;justify-content:flex-end;margin-top:12px}
+.page-btn{background:transparent;border:1px solid rgba(17,24,39,0.06);padding:6px 10px;border-radius:8px}
+
+@media (max-width:640px){.results-table thead{display:none}.results-table tbody td{display:block;padding:8px}.results-table tbody tr{margin-bottom:10px}}

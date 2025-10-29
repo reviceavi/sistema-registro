@@ -1,0 +1,830 @@
+/* Nuevo Registro - Diseño Minimalista */
+
+/* Variables CSS simplificadas */
+:root {
+  --color-primary: #7b1122 !important;
+  --color-primary-light: #9d2148 !important;
+  --color-primary-accent: #c9922a !important;
+  --color-secondary: #475569 !important;
+  --color-success: #059669 !important;
+  --color-warning: #D97706 !important;
+  --color-danger: #DC2626 !important;
+  --color-neutral: #F8FAFC !important;
+  --color-neutral-light: #F1F5F9 !important;
+  --color-text-primary: #0f172a !important;
+  --color-text-secondary: #64748B !important;
+  --color-border: rgba(0,0,0,0.12) !important;
+  --border-radius: 6px !important;
+  --shadow-card: 0 2px 4px rgba(0,0,0,0.08) !important;
+  --shadow-elevated: 0 4px 8px rgba(0,0,0,0.12) !important;
+  --shadow-focus: 0 0 0 2px rgba(123,17,34,0.2) !important;
+  --transition: all 0.15s ease !important;
+}
+
+/* Reset y base */
+* {
+  box-sizing: border-box !important;
+}
+
+.nuevo-registro-container {
+  min-height: 100vh !important;
+  background: #ffffff !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  color: var(--color-text-primary) !important;
+  line-height: 1.5 !important;
+  position: relative !important;
+}
+
+.nuevo-registro-container::before {
+  display: none !important;
+}
+
+/* Header con título principal */
+.header-section {
+  background: #f9fafb !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  padding: 1.5rem 0 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.header-content {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 1.5rem !important;
+}
+
+.main-title {
+  font-size: 1.75rem !important;
+  font-weight: 600 !important;
+  color: var(--color-primary) !important;
+  text-align: center !important;
+  margin: 0 0 0.5rem 0 !important;
+}
+
+.main-subtitle {
+  font-size: 1rem !important;
+  color: var(--color-text-secondary) !important;
+  text-align: center !important;
+  margin: 0 !important;
+  font-weight: 400 !important;
+}
+
+/* Barra de progreso */
+.progress-bar-container {
+  max-width: 800px !important;
+  margin: 0 auto 2rem auto !important;
+  padding: 0 1.5rem !important;
+}
+
+.progress-steps {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  position: relative !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.progress-line {
+  position: absolute !important;
+  top: 50% !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 2px !important;
+  background: #e5e7eb !important;
+  z-index: 1 !important;
+  transform: translateY(-50%) !important;
+}
+
+.progress-line-fill {
+  height: 100% !important;
+  background: var(--color-primary) !important;
+  transition: width 0.3s ease !important;
+}
+
+.progress-step {
+  position: relative !important;
+  z-index: 2 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  background: #ffffff !important;
+  padding: 0.75rem !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--shadow-card) !important;
+  transition: var(--transition) !important;
+  min-width: 140px !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+.progress-step.active {
+  background: var(--color-primary) !important;
+  color: white !important;
+  border-color: var(--color-primary) !important;
+}
+
+.progress-step.completed {
+  background: var(--color-success) !important;
+  color: white !important;
+  border-color: var(--color-success) !important;
+}
+
+.progress-step-icon {
+  width: 2rem !important;
+  height: 2rem !important;
+  margin-bottom: 0.5rem !important;
+  opacity: 0.8 !important;
+}
+
+.progress-step.active .progress-step-icon {
+  opacity: 1 !important;
+}
+
+.progress-step-title {
+  font-weight: 500 !important;
+  font-size: 0.875rem !important;
+  margin-bottom: 0.25rem !important;
+  text-align: center !important;
+}
+
+.progress-step-description {
+  font-size: 0.75rem !important;
+  opacity: 0.8 !important;
+  text-align: center !important;
+  line-height: 1.3 !important;
+}
+
+/* Contenedor principal del formulario */
+.form-container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 1.5rem 2rem 1.5rem !important;
+}
+
+/* Cards de sección */
+.section-card {
+  background: #ffffff !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--shadow-card) !important;
+  padding: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border: 1px solid var(--color-border) !important;
+  transition: var(--transition) !important;
+}
+
+.section-card:hover {
+  box-shadow: var(--shadow-elevated) !important;
+}
+
+.section-title {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: var(--color-primary) !important;
+  margin: 0 0 0.5rem 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.section-title-icon {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  color: var(--color-primary) !important;
+}
+
+.section-description {
+  color: var(--color-text-secondary) !important;
+  margin: 0 0 1.5rem 0 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Grid de campos */
+.fields-grid {
+  display: grid !important;
+  gap: 1.25rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.fields-grid.two-columns {
+  grid-template-columns: 1fr 1fr !important;
+}
+
+.fields-grid.three-columns {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.field-group {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.field-group.full-width {
+  grid-column: 1 / -1 !important;
+}
+
+/* Etiquetas y campos */
+.field-label {
+  font-weight: 500 !important;
+  font-size: 0.875rem !important;
+  color: var(--color-text-primary) !important;
+  margin-bottom: 0.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.375rem !important;
+}
+
+.field-icon {
+  width: 0.875rem !important;
+  height: 0.875rem !important;
+  opacity: 0.6 !important;
+}
+
+.field-input,
+.field-select,
+.field-textarea {
+  padding: 0.75rem !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--border-radius) !important;
+  font-size: 0.875rem !important;
+  transition: var(--transition) !important;
+  background: #ffffff !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Visual cue for readonly inputs: pale gray background and not-allowed cursor */
+.field-input[readonly],
+.field-input[aria-readonly="true"],
+.field-input:disabled {
+  background: linear-gradient(180deg, rgba(248,250,252,0.95), rgba(241,245,249,0.9)) !important;
+  cursor: not-allowed !important;
+  color: var(--color-text-secondary) !important;
+  border-color: var(--glass-border) !important;
+}
+
+.field-input:focus,
+.field-select:focus,
+.field-textarea:focus {
+  outline: none !important;
+  border-color: var(--color-primary) !important;
+  box-shadow: var(--shadow-focus) !important;
+}
+
+.field-input::placeholder {
+  color: #9ca3af !important;
+}
+
+/* Textarea específico */
+.field-textarea {
+  min-height: 100px !important;
+  resize: vertical !important;
+}
+
+/* Estados de error y éxito */
+.field-error {
+  border-color: var(--color-danger) !important;
+}
+
+.field-success {
+  border-color: var(--color-success) !important;
+}
+
+.error-message {
+  color: var(--color-danger) !important;
+  font-size: 0.8rem !important;
+  margin-top: 0.25rem !important;
+}
+
+/* Checkboxes y radio buttons */
+.checkbox-group {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap: 0.75rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.checkbox-item {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  padding: 0.75rem !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--border-radius) !important;
+  background: #ffffff !important;
+  cursor: pointer !important;
+  transition: var(--transition) !important;
+  font-size: 0.875rem !important;
+  color: var(--color-text-primary) !important;
+}
+
+.checkbox-item:hover {
+  border-color: var(--color-primary) !important;
+  background: #f9fafb !important;
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 !important;
+  accent-color: var(--color-primary) !important;
+}
+
+@media (max-width: 640px) {
+  .checkbox-group {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Checkbox-group (Derechos Humanos Violados) */
+.checkbox-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.08s ease;
+  font-size: 0.95rem;
+  color: var(--color-text-primary);
+}
+
+.checkbox-item:hover {
+  border-color: var(--color-primary-light);
+  background: rgba(139,21,56,0.03);
+  transform: translateY(-1px);
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: var(--color-primary);
+}
+
+/* Make the group look compact on small screens */
+@media (max-width: 640px) {
+  .checkbox-group {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Selectores de archivo */
+.file-upload-area {
+  border: 2px dashed var(--color-border) !important;
+  border-radius: var(--border-radius) !important;
+  padding: 1.5rem !important;
+  text-align: center !important;
+  transition: var(--transition) !important;
+  cursor: pointer !important;
+  margin-top: 0.5rem !important;
+  background: #fafafa !important;
+}
+
+.file-upload-area:hover {
+  border-color: var(--color-primary) !important;
+  background: #f5f5f5 !important;
+}
+
+.file-upload-area.has-file {
+  border-color: var(--color-success) !important;
+  background: #f0fdf4 !important;
+}
+
+.file-upload-icon {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  color: var(--color-text-secondary) !important;
+  margin: 0 auto 0.75rem auto !important;
+}
+
+.file-upload-text {
+  font-size: 0.9rem !important;
+  color: var(--color-text-secondary) !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.file-upload-hint {
+  font-size: 0.8rem !important;
+  color: var(--color-text-secondary) !important;
+  opacity: 0.7 !important;
+}
+
+/* Opciones de acción */
+.action-options {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 1rem !important;
+  margin: 1.5rem 0 !important;
+}
+
+.action-card {
+  background: #ffffff !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--border-radius) !important;
+  padding: 1.25rem !important;
+  text-align: center !important;
+  cursor: pointer !important;
+  transition: var(--transition) !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+.action-card:hover {
+  border-color: var(--color-primary) !important;
+  box-shadow: var(--shadow-elevated) !important;
+}
+
+.action-card.selected {
+  border-color: var(--color-primary) !important;
+  background: #f8f9fa !important;
+}
+
+.action-card-icon {
+  width: 3rem !important;
+  height: 3rem !important;
+  margin: 0 auto 0.75rem auto !important;
+  color: var(--color-primary) !important;
+}
+
+.action-card-title {
+  font-size: 1.125rem !important;
+  font-weight: 600 !important;
+  color: var(--color-text-primary) !important;
+  margin: 0 0 0.5rem 0 !important;
+}
+
+.action-card-description {
+  color: var(--color-text-secondary) !important;
+  font-size: 0.875rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Selector de expedientes */
+.expediente-selector {
+  background: #f9fafb !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--border-radius) !important;
+  padding: 1.25rem !important;
+  margin-top: 1.25rem !important;
+}
+
+.expediente-search {
+  margin-bottom: 1.5rem;
+}
+
+.expediente-list {
+  max-height: 350px !important;
+  overflow-y: auto !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--border-radius) !important;
+  background: #ffffff !important;
+}
+
+.expediente-item {
+  padding: 1rem !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  cursor: pointer !important;
+  transition: var(--transition) !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+}
+
+.expediente-item:hover {
+  background: #f9fafb !important;
+}
+
+.expediente-item.selected {
+  background: #f0f9ff !important;
+  border-color: var(--color-primary) !important;
+  border-left: 3px solid var(--color-primary) !important;
+}
+
+.expediente-item:last-child {
+  border-bottom: none !important;
+}
+
+.expediente-info {
+  flex: 1 !important;
+}
+
+.expediente-number {
+  font-weight: 600 !important;
+  color: var(--color-text-primary) !important;
+  margin-bottom: 0.25rem !important;
+  font-size: 1rem !important;
+}
+
+.expediente-details {
+  color: var(--color-text-secondary) !important;
+  font-size: 0.875rem !important;
+  line-height: 1.4 !important;
+}
+
+.expediente-selected-badge {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  color: var(--color-primary) !important;
+  margin-left: 0.75rem !important;
+}
+
+/* Víctimas */
+.victimas-tabs {
+  display: flex !important;
+  background: #f8f9fa !important;
+  border-radius: var(--border-radius) !important;
+  padding: 0.25rem !important;
+  margin-bottom: 1.25rem !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+.victima-tab {
+  flex: 1 !important;
+  padding: 0.5rem 1rem !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: calc(var(--border-radius) - 2px) !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: var(--transition) !important;
+  color: var(--color-text-secondary) !important;
+  font-size: 0.875rem !important;
+}
+
+.victima-tab.active {
+  background: var(--color-primary) !important;
+  color: white !important;
+}
+
+.victima-card {
+  background: #ffffff !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: var(--border-radius) !important;
+  padding: 1.25rem !important;
+  margin-bottom: 1rem !important;
+  position: relative !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+.victima-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 1.5rem !important;
+  padding-bottom: 0.75rem !important;
+  border-bottom: 1px solid var(--color-border) !important;
+}
+
+.victima-title {
+  font-size: 1.125rem !important;
+  font-weight: 600 !important;
+  color: var(--color-primary) !important;
+  margin: 0 !important;
+}
+
+.victima-remove-btn {
+  background: var(--color-danger) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: var(--border-radius) !important;
+  padding: 0.5rem 0.75rem !important;
+  font-size: 0.8rem !important;
+  cursor: pointer !important;
+  transition: var(--transition) !important;
+}
+
+.victima-remove-btn:hover {
+  background: #B91C1C !important;
+}
+
+.btn {
+  padding: 0.75rem 1.25rem !important;
+  border: none !important;
+  border-radius: var(--border-radius) !important;
+  font-weight: 500 !important;
+  font-size: 0.875rem !important;
+  cursor: pointer !important;
+  transition: var(--transition) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  text-decoration: none !important;
+  min-height: 44px !important;
+}
+
+.btn:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+.btn-primary {
+  background: var(--color-primary) !important;
+  color: white !important;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--color-primary-light) !important;
+}
+
+.btn-success {
+  background: var(--color-success) !important;
+  color: white !important;
+}
+
+.btn-success:hover:not(:disabled) {
+  background: #047857 !important;
+}
+
+.btn-secondary {
+  background: var(--color-secondary) !important;
+  color: white !important;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #334155 !important;
+}
+
+.btn-outline {
+  background: transparent !important;
+  color: var(--color-text-secondary) !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+.btn-outline:hover:not(:disabled) {
+  background: var(--color-neutral) !important;
+  border-color: var(--color-text-secondary) !important;
+}
+
+.btn-icon {
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+/* Controles de formulario */
+.form-controls {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 1.25rem 0 !important;
+  border-top: 1px solid var(--color-border) !important;
+  margin-top: 2rem !important;
+}
+
+/* Focus mejorado */
+input:focus, textarea:focus, select:focus, .btn:focus {
+  outline: none !important;
+  box-shadow: var(--shadow-focus) !important;
+  border-color: var(--color-primary) !important;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 1.5rem !important;
+  }
+  
+  .progress-steps {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+  
+  .progress-line {
+    display: none !important;
+  }
+  
+  .fields-grid.two-columns,
+  .fields-grid.three-columns {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .action-options {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .form-controls {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+  
+  .section-card {
+    padding: 1rem !important;
+  }
+  
+  .file-upload-area {
+    padding: 1rem !important;
+  }
+  
+  .action-card {
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-content,
+  .progress-bar-container,
+  .form-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .section-card {
+    padding: 0.75rem !important;
+  }
+  
+  .btn {
+    padding: 0.625rem 1rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+/* Controles de formulario */
+.form-controls-left {
+  display: flex !important;
+  gap: 0.75rem !important;
+}
+
+.form-controls-right {
+  display: flex !important;
+  gap: 0.75rem !important;
+}
+
+/* Estados y mensajes */
+.error-message {
+  background: #fef2f2 !important;
+  color: var(--color-danger) !important;
+  padding: 0.75rem 1rem !important;
+  border-radius: var(--border-radius) !important;
+  border: 1px solid #fecaca !important;
+  margin: 0.75rem 0 !important;
+  font-weight: 500 !important;
+  font-size: 0.875rem !important;
+}
+
+.success-message {
+  background: #f0fdf4 !important;
+  color: var(--color-success) !important;
+  padding: 0.75rem 1rem !important;
+  border-radius: var(--border-radius) !important;
+  border: 1px solid #bbf7d0 !important;
+  margin: 0.75rem 0 !important;
+  font-weight: 500 !important;
+  font-size: 0.875rem !important;
+}
+
+.loading-spinner {
+  width: 1.25rem !important;
+  height: 1.25rem !important;
+  border: 2px solid #f3f4f6 !important;
+  border-top: 2px solid var(--color-primary) !important;
+  border-radius: 50% !important;
+  animation: spin 1s linear infinite !important;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg) !important;
+  }
+}
+
+/* Mensaje de autenticación */
+.auth-warning {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 300px !important;
+  text-align: center !important;
+  padding: 2rem !important;
+  background: white !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--shadow-card) !important;
+  margin: 2rem auto !important;
+  max-width: 450px !important;
+}
+
+.warning-icon {
+  width: 3rem !important;
+  height: 3rem !important;
+  color: var(--color-warning) !important;
+  margin-bottom: 1rem !important;
+}
+
+.auth-warning h2 {
+  color: var(--color-text-primary) !important;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.auth-warning p {
+  color: var(--color-text-secondary) !important;
+  margin-bottom: 1.5rem !important;
+  font-size: 0.9rem !important;
+}

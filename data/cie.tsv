@@ -1,0 +1,368 @@
+ID	ExpedienteÚnico	Nombre 	Tipo	Procedencia	Clasificación	Pagado	FechaPago	Monto	Pago	FechaCIEFondo	RecepciónCEAVI	AtrasoHoy	Registro	ExpedienteFísico	Ubicación	Estatus	PrimerContacto	Registro	Fondo	Contencioso
+1		María Nieves Merino Ramírez, Santiago Ramírez Martínez Y Virginia Ramírez Merino	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		03/09/2019	2240	NA							
+2		Marina López Joaquín	Delito	Registro	Compensación Subsidiaria	Sí	06/05/2024	$41,080.00	Total	10/02/2021	17/01/2020	2104	CEAVI/REVI/001/2020							
+3		Yanny Stefany Hernández Peralta o Yani Estefany Hernández Peralta	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		28/01/2020	2093	CEAVI/REVI/002/2020							
+4		Julio Cesar Morales González	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		05/02/2020	2085	CEAVI/REVI/003/2020							
+5		Renan Hidalgo Echazarreta | Félix Domínguez Rodríguez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		14/08/2020	1894	CEAVI/REVI/148/2020 | CEAVI/REVI/149/2020							
+6		Odette Delfina García Cisneros | Irma Odette Cisneros Zavala | Gerardo García Orozco	Delito	Registro	Compensación Subsidiaria	Sí	17/12/2022	$93,162.10	Total	17/11/2022	18/08/2020	1890	CEAVI/REVI/153/2020 | CEAVI/REVI/154/2020 | CEAVI/REVI/155/2020							
+7		Yesica Celene Hernández Mujica | Luz María Mujica Hernández | Raymundo Munguía Hernández	Delito	Registro	Compensación Subsidiaria	No		$100,101.54	En Amparo	06/08/2024	20/08/2020	1888	CEAVI/REVI/150/2020 | CEAVI/REVI/151/2020 | CEAVI/REVI/152/2020							
+8		Alejandro Alvarado León	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		21/08/2020	1887	NA							
+9		Arturo Luna Ángeles	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/08/2020	1887	NA							
+10		Jacqueline Martínez Sánchez | Jacqueline Martínez Sánchez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		21/08/2020	1887	CEAVI/REVI/142/2020							
+11		Jorge Samuel Santiago Rodríguez | Héctor Alejandro Martínez Magdaleno | Jesús Damián Valdez García | Lourdes del Carmen Rodríguez Gómez | Yaressy Nayeli Gutiérrez Camacho | Jonathan Israel Lozano García | Luis Ángel Pérez Castañeda | Xicoténcatl González Lorenzana | Ana Vianey Rafael Manzanares | María Luisa Castilla Quesada | Enrique Antonio de la Cruz Maldonado | Ana Dalia Ornelas Rodríguez | Mariana Guadalupe Hernández Medellín	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		21/08/2020	1887	CEAVI/REVI/226/2020 | CEAVI/REVI/227/2020 | CEAVI/REVI/228/2020 | CEAVI/REVI/229/2020 | CEAVI/REVI/230/2020 | CEAVI/REVI/231/2020 | CEAVI/REVI/232/2020 | CEAVI/REVI/233/2020 | CEAVI/REVI/234/2020 | CEAVI/REVI/235/2020 | CEAVI/REVI/236/2020 | CEAVI/REVI/237/2020 | CEAVI/REVI/238/2020							
+12		José de Jesús Alberto Carrera Limón | Vanesa Medina Flores | Menor Mario Alberto Carrera Medina | Menor Gabriel Carrera Medina | Alva Cami Carrera Medina	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		21/08/2020	1887	CEAVI/REVI/173/2021 | CEAVI/REVI/174/2021 | CEAVI/REVI/175/2021 | CEAVI/REVI/176/2021 | CEAVI/REVI/1772021							
+13		Susana Acosta Martínez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		21/08/2020	1887	CEAVI/REVI/141/2020							
+14		Francisco Rentería Martínez | Saúl Vázquez Olivos	Recomendación	Registro	Plan Reparación	No			Sin Pago		26/08/2020	1882	NA							
+15		Nancy Ruiz Briones	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		26/08/2020	1882	NA							
+16		Carlos Pérez García	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		28/08/2020	1880	NA							
+17		María Nieves Merino Ramírez | Santiago Ramírez Martínez | Virginia Ramírez Merino | María Nieves Merino Ramírez | Santiago Ramírez Martínez | Virginia Ramírez Merino	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		28/08/2020	1880	NA							
+18		José Juan Sánchez Castañeda	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		18/09/2020	1859	NA							
+19		Josué Abraham Galicia Arreola | Josué Abraham Galicia Arreola	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		18/09/2020	1859	NA							
+20		Gabriela Gómez Cervantes | Roda Gómez Cervantes | José García Soto | David Sandoval Cervantes | A.J.G.G. | M.L.N.G. | Tania Sandoval Cervantes | Bethzaida García Soto	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		24/09/2020	1853	CEAVI/REVI/220/2020 | CEAVI/REVI/221/2020 | CEAVI/REVI/222/2020 | CEAVI/REVI/223/2020 | CEAVI/REVI/224/2020 | CEAVI/REVI/225/2020							
+21		Luis Tirado Morales | Tania Rocío Morales Olvera	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		29/09/2020	1848	CEAVI/REVI/242/2020 | CEAVI/REVI/243/2021							
+22		Lorena González Hernández | César Armando Arroyo Sánchez | Bryan Rivera González | María Rosa Hernández Arzate	Recomendación	Registro	Plan Reparación	No			Sin Pago		06/10/2020	1841	CEAVI/REVI/244/2020 CEAVI/REVI/245/2020 CEAVI/REVI/246/2020 CEAVI/REVI/247/2020							
+23		Luis Moreno Callejas	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		07/10/2020	1840	NA							
+24		Víctor Antonio Palma Castillo	Recomendación	Registro	Plan Reparación	No		$261,557.66	Se dejo sin Efectos por Ejecutoria	27/03/2021	07/10/2020	1840	CEAVI/REVI/249/2020							
+25		Ernesto Hernández López | Ernesto Hernández Cordero | Sandra Violeta Cordero Contreras y Ana Victoria Martín | Ernesto Hernández López | Ernesto Hérnandez Cordero | Sandra Violeta Cordero Contreras | Ana Victoria Martín	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		09/10/2020	1838	NA							
+26		Luis Alberto Santos Rodríguez | Merit Viridiana Botello Aguilar	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		09/10/2020	1838	NA							
+27		Humberto Padgett León | María Elba Ibarra Falcón | Engracia León Correa	Recomendación	Registro	Plan Reparación	No		$0.00	Se dejo sin Efectos por Ejecutoria	25/10/2023	14/10/2020	1833	CEAVI/REVI/156/2020 | CEAVI/REVI/159/2020 | CEAVI/REVI/160/2020							
+28		Gabriela Rivera Guadarrama	Recomendación	Registro	Plan Reparación	No			Sin Pago		16/10/2020	1831	CEAVI/REVI/140/2020							
+29		Raquel Taboada Arreola | Elizabeth Arreola Mendieta | María de la Luz Taboada Arreola | Sofía Taboada Arreola	Recomendación	Registro	Plan Reparación	Sí		$266,319.00	Total	01/10/2021	28/10/2020	1819	CEAVI/REVI/144/2020 | CEAVI/REVI/145/2020 | CEAVI/REVI/146/2020 | CEAVI/REVI/147/2020							
+30		Haydee Alejandra Ramírez Sánchez	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		29/10/2020	1818	NA							
+31		Miriam Gisela Serrano Huerta | Huerta Padrón Margarita | Serrano Pérez Pedro Armando | Serrano Huerta Ruth Anilu | MN.T.S. | L.N.S.C. | D.N.S.H.	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		30/10/2020	1817	CEAVI/REVI/343/2020 | CEAVI/REVI/344/2020 | CEAVI/REVI/345/2020 | CEAVI/REVI/346/2020 | CEAVI/REVI/347/2020 | CEAVI/RVI/348/2020 | CEAVI/REVI/349/2020							
+32		Juan Pablo Irigoyen Ramírez | Berónica Araceli Ramírez | Ana Paula Irigoyen Ramírez	Conciliación DDHH	Registro	Plan Reparación	No			Sin Pago		05/11/2020	1811	CEAVI/REVI/350/2020 | CEAVI/REVI/351/2020 | CEAVI/REVI/352/2020							
+33		María del Consuelo Sánchez Canales	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		10/11/2020	1806	NA							
+34		Edith López Guzmán | Margarita Ana López Guzmán | Mario Adán Jiménez López	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		12/11/2020	1804	CEAVI/REVI/353/2020 | CEAVI/REVI/354/2020 | CEAVI/REVI/355/2020							
+35		Joshua Vercchel Martínez Paramo | Julio Victor Martínez Garcia	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		12/11/2020	1804	NA							
+36		Juan José García Espinoza	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		13/11/2020	1803	NA							
+37		Patricia Sánchez Guzmán | Marco Antonio Valdovinos Arenas | Handehui Adelaida Valdovinos Sánchez	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		13/11/2020	1803	NA							
+38		Alan Yair Silvestre Becerril | Héctor Efraín Tolentino de Jesús | Karina Becerril Robles | Laura de Jesús García	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		30/11/2020	1786	CEAVI/REVI/358/2020 | CEAVI/REVI/359/2020 | CEAVI/REVI/360/2020 | CEAVI/REVI/361/2020							
+39		Andrea Medina Moya | Sara Moya Díaz	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		03/12/2020	1783	CEAVI/REVI/379/2020  CEAVI/REVI/380/2020 CEAVI/REVI/381/2020							
+40		Ana Brenda Martínez Reséndiz | Eva Reséndiz Sánchez | Carolina Martínez Reséndiz	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/374/2020 | CEAVI/REVI/375/2020 | CEAVI/REVI/376/2020							
+41		Blanca Estela Lazcano Ramírez | Juana Fabiola Ramírez Pérez | Ángel Lazcano Pérez	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/400/2020 | CEAVI/REVI/401/2020 | CEAVI/REVI/402/2020							
+42		Diana Elizabeth Villafañez | Edgar Arturo Irabién Villafañez	Recomendación	Registro	Plan Reparación	No		$669,968.60	Sin Pago	POR SESIONAR	11/12/2020	1775	CEAVI/REVI/370/2020 | CEAVI/REVI/371/2020							
+43		Fernanda Cadena Martínez | Graciela Martínez Dominguez | Ximena Yañez Cadena	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/367/2020 | CEAVI/REVI/369/2020 | CEAVI/REVI/368/2020							
+44		Guadalupe Amaya Ruiz | Susana Ruíz Luna | Marcelino Amaya Blancas	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/397/2020 | CEAVI/REVI/398/2020 | CEAVI/REVI/399/2020							
+45		Lucy Prieto Sandoval | Víctor Prieto Sandoval | Isabela Silvestra Sandoval Marín	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAV/REVI/362/2020 | CEAVI/REVI/363/2020 | CEAVI/REVI/364/2020							
+46		María de Jesús Jaimes Zamudio | Elideth Yesenia Zamudio Solorzano | Honorio Jaimes López	Recomendación	Registro	Plan Reparación	No		$466,659.08	En Amparo	12/12/2023	11/12/2020	1775	CEAVI/REVI/250/2020 | CEAVI/REVI/251/2020 | CEAVI/REVI/252/2020							
+47		María Margarita Sánchez López | María Luisa Sánchez López	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/372/2020 | CEAVI/REVI/373/2020							
+48		Mayra Abigail Guerrero Mondragón | Araceli Mondragón Sánchez	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/386/2020 | CEAVI/REVI/387/2020,							
+49		Melani Citlally Romero Mañon | María Angelica Mañón Sánchez | Laura Daniela Romero Mañón	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/383/2020 | CEAVI/REVI/384/2020 | CEAVI/REVI/385/2020							
+50		Violeta Salomón Gamboa | Virginia Gamboa Robles	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/394/2020 | CEAVI/REVI/395/2020							
+51		Yoseline Peralta Aguirre	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/12/2020	1775	CEAVI/REVI/388/2020 | CEAVI/REVI/389/2020 | CEAVI/REVI/390/2020 | CEAVI/REVI/391/2020 | CEAVI/REVI/392/2020							
+52		Julio César Nuñez Delgadillo	Recomendación	Registro	Plan Reparación	No			Sin Pago		01/01/2021	1754	CEAVI/REVI/376/2021							
+53		Nino Colman Hoyos Henao | Francia Nelly Henao Agudelo	Recomendación	Registro	Plan Reparación	Sí	12/07/2024	$287,963.17	Total	04/12/2023	11/01/2021	1744	CEAVI/REVI/248/2020 | CEAVI/REVI/001/2021							
+54		Mario Brandon Trejo López | Atzin Ameyalli Correa Bernal | Mario Trejo Martínez | Mayra Nancy López Sánchez	Delito	Registro	Compensación Subsidiaria	Sí	04/03/2021	$37,640.40	Total	16/02/2021	21/01/2021	1734	CEAVI/REVI/393/2020 | CEAVI/REVI/396/2020 | CEAVI/REVI/011/2021 | CEAVI/REVI/012/2021							
+55		Guillermo Quevedo Olivares	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		25/01/2021	1730	NA							
+56		Beatriz Azucena López García | Gloria Susana García Orozco | D.A.N.L.	Recomendación	Registro	Plan Reparación	No			Sin Pago		26/01/2021	1729	CEAVI/REVI/013/2021 | CEAVI/REVI/014/2021 | CEAVI/REVI/015/2021							
+57		Víctor Emmanuel Torres Leyva | Jovita Leyva López | David Antonio Torres Vallejo | César Vallejo Conde | Guillermo Vallejo Conde | Alma Patricia Torres Leyva | Norma Leticia Torres Leyva | Antonio Javier Torres Leyva | Norma Patricia Sabanero Torres	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/01/2021	1727	CEAVI/REVI/002/2021 | CEAVI/REVI/003/2021 | CEAVI/REVI/004//2021 | CEAVI/REVI/005/2021 | CEAVI/REVI/006/2021 | CEAVI/REVI/007/2021 | CEAVI/REVI/008/2021 | CEAVI/REVI/009/2021 y CEAVI/REVI/010/2021							
+58		Victoria Pamela Salas Martínez | Consuelo Salas Martínez | Salvador Sampedro Mendoza	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/01/2021	1727	CEAVI/REVI/018/2021 | CEAVI/REVI/019/2021 | CEAVI/REVI/020/2021							
+59		Celeste Paz | Arturo Paz Uribe | Adriana Elizabeth Henández Gutiérrez | Paulina Paz Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		19/03/2021	1677	CEAVI/REVI/99/2020 | CEAVI/REVI/027/2021 | CEAVI/REVI/028/2021 | CEAVI/REVI/029/2021							
+60		Kenya Citlali Cuevas Fuentes | Paola Buenrostro	Recomendación	Registro	Plan Reparación	Sí		$6,074,152.00	Total	22/05/2024	19/03/2021	1677	CEAVI/REVI/356/2020 | CEAVI/REVI/357/2020							
+61		Mónica Sánchez Calvo | Jovita Luz Calvo Sánchez | P.E.S.	Recomendación	Registro	Plan Reparación	No			Sin Pago		19/03/2021	1677	CEAVI/REVI/036/2021 | CEAVI/REVI/037/2021							
+62		Dilan Alejandro Colmenares Guerrero | Ana Isabel Guerrero Rojas | U.Y.C.G. | K.P.C.G. | Luis Carlos Colmenares Guerrero	Delito	Registro	Compensación Subsidiaria	No		$144,989.40	En Amparo	05/12/2023	06/04/2021	1659	CEAVI/REVI/403/2020 | CEAVI/REVI/404/2020 | CEAVI/REVI//405/2020 | CEAVI/REVI//406/2020 | CEAVI/REVI/052/2021							
+63		Monica Rios Santana | Isabella Ayala Rìos | Alejandro Salvador Santana Rios	Delito	Registro	Compensación Subsidiaria	Sí	28/11/2024	$1,600,827.00	Total	11/09/2024	06/04/2021	1659	CEAVI/REVI/042/2021 | CEAVI/REVI/043/2021 | CEAVI/REVI/044/2021							
+64		Guadalupe Pamela Gallardo Volante | Maria del Carmen Volate Velàzquez | Esteban Alejandro Gallardo Volante | Esteban Gallardo Gutiérrez | Josè Eduardo Gallardo	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/05/2021	1617	CEAVI/REVI/142/2021 | CEAVI/REVI/143/2021 | CEAVI/REVI/144/2021 | CEAVI/REVI/145/2021 | CEAVI/REVI/146/2021							
+65		Brayan Valencia García | Elizabeth García Santiago	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		19/05/2021	1616	CEAVI/REVI/165/2020 | CEAVI/REVI/166/2020							
+66		Línea 12 del Metro	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		20/05/2021	1615	CEAVI/REVI/001/2021-COLECTIVO							
+67		Brandon Ariel S. Q. | Rosa Elena Q. B.	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		11/06/2021	1593	CEAVI/REVI/159/2021 | CEAVI/REVI/160/2021							
+68		Lesvy Berlín Rivera Osorio | Aracelí Osorio Martínez | Lesvy Rivera Calderón | Otilia Martinez Ferra | Fausto Osorio Martínez	Recomendación	Registro	Plan Reparación	No			Sin Pago		16/06/2021	1588	CEAVI/REVI/338/2020 | CEAVI/REVI/339/2020 | CEAVI/REVI/340/2020 | CEAVI/REVI/341/2020 | CEAVI/REVI/342/2020							
+69		Aida Mulato Salinas	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/06/2021	1583	CEAVI/REVI/170/2021							
+70		Berenice Álvarez Becerril | Sahara Helena Coronado Álvarez	Recomendación	Registro	Plan Reparación	No		$251,050.80	En Amparo	22/09/2023	21/06/2021	1583	CEAVI/REVI/194/2021 | CEAVI/REVI/195/2021							
+71		Germán Guillermo Canseco Zárate	Recomendación	Registro	Plan Reparación	No		$190,482.00	En Amparo	11/10/2023	21/06/2021	1583	CEAVI/REVI/185/2021							
+72		Arturo Medina Vela | Judith Medina Vela	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/06/2021	1582	CEAVI/REVI/204/2021 | CEAVI/REVI/205/2021							
+73		Cinthia Amairany Vargas Méndez | María Guadalupe Méndez Ayala	Recomendación	Registro	Plan Reparación	No			Sin Pago		12/07/2021	1562	CEAVI/REVI/206/2021 | CEAVI/REVI/207/2021							
+74		Mario Enrique Gómez Ávila | José Chávez Jiménez | Judith Villegas Barrón | David Pérez Cisneros | Rodolfo Javier González Hernández | Esther Esmeralda Cervantes Vázquez	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/07/2021	1554	CEAVI/REVI/249/2021 CEAVI/REVI/250/2021 CEAVI/REVI/251/2021 CEAVI/REVI/252/2021 CEAVI/REVI/253/2021 CEAVI/REVI254/2021							
+75		Bryand Enrique Hernández Jiménez	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/07/2021	1549	CEAVI/REVI/225/2021							
+76		Erika González Torres | Elizabeth González Torrez | Irma Torres Moctezuma | Ezequiel González Maya | María Cristina Torres Moctezuma | Jimena García González | Nevin Orlando González | Ángel Eduardo Beltran González | Juan Antonio González Torres	Recomendación	Registro	Plan Reparación	No			Sin Pago		26/07/2021	1548	CEAVI/REVI/208/2021 | CEAVI/REVI/209/2021 | CEAVI/REVI/210/2021 | CEAVI/REVI/211/2021 | CEAVI/REVI/212/2021 | CEAVI/REVI/213/2021 | CEAVI/REVI/214/2021 | CEAVI/REVI/215/2021 CEAVI/REVI/216/2021							
+77		Juan Antonio Vazquez Silva | Agustina Fuentes Ulloa	Recomendación	Registro	Plan Reparación	No		$368,961.13	En Amparo	08/07/2024	02/08/2021	1541	CEAVI/REVI/247/2021 | CEAVI/REVI/248/2021							
+78		Ulises Palacios Perez | Luis Mario Palacios Reyes | Blanca Leticia Pérez Álvarez	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/08/2021	1532	CEAVI/REVI/218/2021 | CEAVI/REVI/219/2021 | CEAVI/REVI/220/2021							
+79		Félix Fernando Ruiz Hernández	Recomendación	Registro	Plan Reparación	No		$388,538.00	En Amparo	04/04/2023	12/08/2021	1531	CEAVI/REVI/301/2021							
+80		Jovani Maciel Jiménez	Recomendación	Registro	Plan Reparación	No			Sin Pago		12/08/2021	1531	CEAVI/REVI/295/2021							
+81		Christian David Rangel Flores	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/09/2021	1484	CEAVI/REVI/374/2021							
+82		José Enrique Cuel Cruz	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/09/2021	1484	CEAVI/REVI/373/2010							
+83		Pablo Gutierrez Ramirez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		28/09/2021	1484	CEAVI/REVI/368/2010							
+84		Edgar Kevin Vargas González | Erick Saúl Tercero Rodríguez | Sandra Gonzalez Díaz | Teresita Rodríguez Arechiga	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		29/09/2021	1483	CEAVI/REVI/258/2021 | CEAVI/REVI/259/2021 | CEAVI/REVI/260/2021 | CEAVI/REVI/261/2021							
+85		Ximena Dannae Hernández Mendoza | Cinthya Mendoza Espinosa	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		29/09/2021	1483	CEAVI/REVI/342/2021 | CEAVI/REVI/343/2021							
+86		Fatima Altamirano Coca | Alonso Altamirano Sosa | Susana Coca Silvestre	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		30/09/2021	1482	CEAVI/REVI/315/2021 | CEAVI/REVI/316/2021 | CEAVI/REVI/317/2021							
+87		Arturo Nieva Gonzalez | Icsayana Mayte Nieva Gonzalez	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/10/2021	1478	CEAVI/REVI/383/2021 CEAVI/REVI/384/2021							
+88		Edna Nikteha Muñoz Sánchez | Francisco Muñoz Sánchez	Recomendación	Registro	Plan Reparación	No			Sin Pago		06/10/2021	1476	CEAVI/REVI/385/2021 | CEAVI/REVI/386/2021							
+89		José Eloy Lobato Torres	Recomendación	Registro	Plan Reparación	No			Sin Pago		06/10/2021	1476	CEAVI/REVI/378/2021							
+90		Astli Ximena Durán Valverde	Recomendación	Registro	Plan Reparación	No			Sin Pago		07/10/2021	1475	CEAVI/REVI/387/2021							
+91		José Juvenal Rosillo Pérez	Recomendación	Registro	Plan Reparación	No			Sin Pago		08/10/2021	1474	CEAVI/REVI/271/2021							
+92		Brian Hazel Martínez Avendaño	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/10/2021	1471	CEAVI/REVI/399/2021							
+93		Mario Maximiliano Salazar Rojas	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/10/2021	1471	CEAVI/REVI/398/2021							
+94		Noé Lladó Rendón	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/10/2021	1471	CEAVI/REVI/397/2021							
+95		Raúl Angel Ortega Rodríguez	Recomendación	Registro	Plan Reparación	No			Sin Pago		15/10/2021	1467	CEAVI/REVI/403/2021							
+96		Julio César Gutiérrez Aguilar	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/10/2021	1464	CEAVI/REVI/224/2021							
+97		Maria Araceli Lara Cordova	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/10/2021	1457	CEAVI/REVI/419/2021							
+98		Mariana Vivian Borroel Alva | Cristhian Emmanuel Borroel Alba	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/10/2021	1457	CEAVI/REVI/422/2021 | CEAVI/REVI/421/2021							
+99		Daniel Luevano Rojas | Andrea Gómez Rubio | Andrea Gómez Rubio	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		28/10/2021	1454	CEAVI/REVI/452/2021 | CEAVI/REVI/453/2021							
+100		Yaping Li | Abel Roca Bobadilla	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		28/10/2021	1454	CEAVI/REVI/450/2021 | CEAVI/REVI/451/2021							
+101		Emilio Osvaldo Tovar Valdovinos	Recomendación	Registro	Plan Reparación	No			Sin Pago		29/10/2021	1453	CEAVI/REVI/454/2021							
+102		Georgina Alicia Mendoza López | Daniela Martínez López	Recomendación	Registro	Plan Reparación	No			Sin Pago		29/10/2021	1453	CEAVI/REVI/456/2021 | CEAVI/REVI/457/2021							
+103		Juan Hernández Badillo	Recomendación	Registro	Plan Reparación	No			Sin Pago		29/10/2021	1453	CEAVI/REVI/418/2021							
+104		Delcia Nanci Meza Espinoza Rosa Itzel Meza Espinoza Ian Emiliano Flores Meza Santiago Meza Espinoza	Recomendación	Registro	Plan Reparación	No			Sin Pago		03/11/2021	1448	CEAVI/REVI/288/2021 | CEAVI/REVI/289/2021 | CEAVI/REVI/290/2021 | CEAVI/REVI/402/2021							
+105		Luis Fernado Sotelo Zambrano	Recomendación	Registro	Plan Reparación	No			Sin Pago		03/11/2021	1448	CEAVI/REVI/377/2021							
+106		María Lucía Hernández Manuel	Recomendación	Registro	Plan Reparación	No			Sin Pago		03/11/2021	1448	CEAVI/REVI/463/2021							
+107		Norma González Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		03/11/2021	1448	CEAVI/REVI/461/2021							
+108		Norma Luz Moreno Cabrera	Recomendación	Registro	Plan Reparación	No			Sin Pago		03/11/2021	1448	CEAVI/REVI/462/2021							
+109		Stephani Morales Rodríguez	Recomendación	Registro	Plan Reparación	No			Sin Pago		03/11/2021	1448	CEAVI/REVI/262/2021 | CEAVI/REVI/263/2021							
+110		Ana Cecilia Canive Salazar	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/11/2021	1429	CEAVI/REVI/486/2021							
+111		Brenda Amparo Menes Cárdenas	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/11/2021	1429	CEAVI/REVI/487/2021							
+112		Gabriela Noriega García	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/11/2021	1429	CEAVI/REVI/485/2021							
+113		Gabriela Reyes Ortiz	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		22/11/2021	1429	CEAVI/REVI/476/2021							
+114		Laura Patricia Zaragoza Grifaldo | María Fernanda Solorio Zaragoza	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/11/2021	1429	CEAVI/REVI/492/2021 | CEAVI/REVI/491/2021							
+115		María Fernanda Ruiz Pérez	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/11/2021	1429	CEAVI/REVI/493/2021							
+116		Sahira Gil Torres	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/11/2021	1429	CEAVI/REVI/490/2021							
+117		Adán Nava Valenzuela	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/495/2021							
+118		Carlos Torres Coba | Irma Coba Hernández | Venessa Iridian Salas Coba | Karen Ingrid Torres Coba	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/464/2021 | CEAVI/REVI/465/2021 | CEAVI/REVI/466/2021 | CEAVI/REVI/467/2021							
+119		Humberto Gabriel Méndez Cornejo	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/496/2021							
+120		Joel Torres Cruz | María del Rocío Cruz Cerón | Erika Marlen Torres Cruz	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/488/2021 | CEAVI/REVI/489/2021							
+121		Iván Cerda Barrales	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/494/2021							
+122		Juan Carlos Alverdín González | Virginia González Álvarez	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/471/2021 | CEAVI/REVI/472/2021							
+123		Laura Patricia Contreras Gúzman | Laura Daniela Dávila Contreras	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/473/2021 | CEAVI/REVI/474/2021							
+124		Mario Guevara de la Peña	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/570/2021							
+125		Víctor Israel Durán de Huerta González | Norma Angélica  González Torres	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/11/2021	1428	CEAVI/REVI/468/2021 | CEAVI/REVI/469/2021							
+126		Edher Jair Reyes Morales	Recomendación	Registro	Plan Reparación	No			Sin Pago		29/11/2021	1422	CEAVI/REVI/455/2021							
+127		Enrique Reyes Chávez	Recomendación	Registro	Plan Reparación	No			Sin Pago		06/12/2021	1415	CEAVI/REVI/477/2021							
+128		José Juan Serafín Breton | Eladia Michel Hernández Montaño	Recomendación	Registro	Plan Reparación	No			Sin Pago		06/12/2021	1415	CEAVI/REVI/478/2021 | CEAVI/REVI/479/2021							
+129		Raymundo Sánchez Hernández | Agustín Sánchez Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		06/12/2021	1415	CEAVI/REVI/409/2021 | CEAVI/REVI/408/2021							
+130		Carlos Estrada Betancourt | Cristhian Carlos Estrada Hernández | Blanca Leticia Hernández Gúzman | Karen Vanessa Estrada Hernández | Melanie Alisson Alondra Estrada Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		09/12/2021	1412	CEAVI/REVI/430/2021 | CEAVI/REVI/431/2021 | CEAVI/REVI/432/2021 | CEAVI/REVI/433/2021 | CEAVI/REVI/434/2021							
+131		Erik Martínez Arciniega | Josefina Arciniega Cortés | Guillermo Martínez Pérez	Recomendación	Registro	Plan Reparación	No			Sin Pago		09/12/2021	1412	CEAVI/REVI/427/2021 | CEAVI/REVI/428/2021 | CEAVI/REVI/429/2021							
+132		Fidencio Pérez Morales | Miguel Ángel Crúz Ortega | Juan Carlos Gatica Rodas | Agustin Rios Martínez	Recomendación	Registro	Plan Reparación	Sí		$105,713.75	Total		09/12/2021	1412	CEAVI/REVI/438/2021 | CEAVI/REVI/439/2021 | CEAVI/REVI/440/2021 | CEAVI/REVI/441/2021							
+133		Erik Manuel González Carbajal	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/12/2021	1408	CEAVI/REVI/508/2021							
+134		Erika Nancy Quiroz Ramírez	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/12/2021	1408	CEAVI/REVI/509/2021							
+135		Guillermo Félix Quiroz Alarcón	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/12/2021	1408	CEAVI/REVI/506/2021							
+136		Luis Armando Quiroz Ramírez	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/12/2021	1408	CEAVI/REVI/507/2021							
+137		Alberto Silva Moreno	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/313/2021							
+138		Diana Cruz Calvillo | Fatima Elizabeth Cruz Calvillo	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/526/2021 | CEAVI/REVI/527/2021							
+139		Erick Alfonso Villareal Villegas	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/531/2021							
+140		Fany Gabriela Noeguez Galicia | Ynle Yamir Silva Noguez | Emilio Noguez Galicia | Carolina Yunuem Noguez Galicia | Martha Noguez Galicia	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/525/2021 | CEAVI/REVI/532/2021 | CEAVI/REVI/533/2021 | CEAVI/REVI/534/2021 | CEAVI/REVI/535/2021							
+141		Gerardo Rodríguez Reyes	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/321/2021							
+142		Ismael Bautista Santillán | Jovita Margarita Santillán Valencia	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/318/2021 | CEAVI/REVI/319/2021							
+143		Jorge Díaz Cortés	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/311/2021							
+144		José Ernesto Rosas Lameda	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/314/2021							
+145		Sergio Hernández Martinez	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/12/2021	1401	CEAVI/REVI/310/2021							
+146		Fernando Castillo Pérez	Recomendación	Registro	Plan Reparación	No			Sin Pago		10/01/2022	1380	CEAVI/REVI/324/2021							
+147		Fernando García Santillán	Recomendación	Registro	Plan Reparación	No			Sin Pago		10/01/2022	1380	CEAVI/REVI/309/2021							
+148		José Antonio Encinas Ortiz	Recomendación	Registro	Plan Reparación	No			Sin Pago		10/01/2022	1380	CEAVI/REVI/308/2021							
+149		José Melquiades Martínez	Recomendación	Registro	Plan Reparación	No			Sin Pago		10/01/2022	1380	CEAVI/REVI/306/2021							
+150		Verónica Karime Pérez Toledo	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/01/2022	1379	CEAVI/REVI/475/2021							
+151		Andrea Montserrat Flores Buendía | Victorio Palma Torres	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		15/02/2022	1344	NA							
+152		Blanca Lilia Chavarria Luna | Ricardo Fabián González Chavarría | Guillermo González Chavarría	Recomendación	Registro	Plan Reparación	Sí	12/10/2023	$562,707.18	Total	11/07/2023	15/02/2022	1344	CEAVI/REVI/152/2021 | CEAVI/REVI/010/2022 | CEAVI/REVI/011/2022							
+153		Juan Carlos Hernández Zaragoza	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/02/2022	1337	CEAVI/REVI/404/2021							
+154		Jesús Alcántara Rojano	Delito	Registro	Compensación Subsidiaria	Sí	08/09/2023	$35,479.08	Total	21/08/2023	23/02/2022	1336	CEAVI/REVI/001/2022							
+155		José Anibal Lozano Mondragón | Laura Lizbeth Flores Tellez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		23/02/2022	1336	CEAVI/REVI/545/2021 | CEAVI/REVI/546/2021							
+156		José Guillermo Benjamín Ruiz Caracciolo | Rosa María Omar Caracciolo	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/02/2022	1336	CEAVI/REVI/406/2021 | CEAVI/REVI/407/2021							
+157		Rafael Flores Rosales | Ofelia Rosales Dávila	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/02/2022	1336	CEAVI/REVI/410/2021 | CEAVI/REVI/411/2021							
+158		Ulises Sánchez Ayala | Laura Gónzalez Castro	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/02/2022	1336	CEAVI/REVI/414/2021 | CEAVI/REVI/415/2021							
+159		Eduardo Méndez Rodíguez | Katherine Viviana Zavala	Recomendación	Registro	Plan Reparación	No			Sin Pago		02/03/2022	1329	CEAVI/REVI/256/2021 | CEAVI/REVI/257/2021							
+160		Otoniel del Águila Cristalinas | Margarito del Águila	Recomendación	Registro	Plan Reparación	No			Sin Pago		02/03/2022	1329	CEAVI/REVI/412/2021 | CEAVI/REVI/413/2021							
+161		Mayra Abigail Guerrero Mondragón | Kenya Marlen Guerrero Mondragón | Blanca Itzel López Mondragón | Araceli Mondragón Sánchez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		15/03/2022	1316	CEAVI/REVI/036/2022 | CEAVI/REVI/037/2022 | CEAVI/REVI/038/2022 | CEAVI/REVI/039/2022							
+162		Alma Rocio Galván Rodríguez | Norma Rosario Galván Rodríguez | María del Refugio Rodríguez González | Gabriela Ruth Galván Rodríguez | Sebastián Galván Rodríguez | Jimena Abigail Galván Rodríguez | Dominic Ricardo Mata Galván | Noa Karolina Mata Galván	Recomendación	Registro	Plan Reparación	No			Sin Pago		05/04/2022	1295	CEAVI/REVI/280/2021 | CEAVI/REVI/281/2021 | CEAVI/REVI/282/2021 | CEAVI/REVI/283/2021 | CEAVI/REVI/284/2021 | CEAVI/REVI/285/2021 | CEAVI/REVI/286/2021 | CEAVI/REVI/287/2021							
+163		Gilberto Piña Martínez	Recomendación	Registro	Plan Reparación	No			Sin Pago		05/04/2022	1295	CEAVI/REVI/529/2021							
+164		Hugo David Vázquez Cruz	Recomendación	Registro	Plan Reparación	No			Sin Pago		05/04/2022	1295	CEAVI/REVI/530/2021							
+165		Lucio Mejia Monsalvo	Recomendación	Registro	Plan Reparación	No			Sin Pago		05/04/2022	1295	CEAVI/REVI/528/2021							
+166		Luis Diego Rivera Ávila | César Rivera Ávila | Óscar López Rivera | Ángel Salinas Rivera | María Karina Vázquez Reyes	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		05/04/2022	1295	CEAVI/REVI/064/2022 | CEAVI/REVI/065/2022 | CEAVI/REVI/066/2022 | CEAVI/REVI/067/2022 | CEAVI/REVI/068/2022							
+167		Martín Alonso Ramírez López	Recomendación	Registro	Plan Reparación	No			Sin Pago		05/04/2022	1295	CEAVI/REVI/379/2021							
+168		Omar Guillermo Rodríguez Romero	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/04/2022	1282	CEAVI/REVI/069/2022							
+169		Oscar Reyes Mondragón	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/04/2022	1278	CEAVI/REVI/073/2022							
+170		Víctor Joel Sotelo Ibarra | Maria Victorian Ibarra Ramírez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		22/04/2022	1278	CEAVI/REVI/171/2021 | CEAVI/REVI/172/2021							
+171		Arturo de la Peña Ordoñez	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/04/2022	1273	CEAVI/REVI/077/2022							
+172		José Andrés López Guadiana Irasema Zavala Montoya	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/04/2022	1273	CEAVI/REVI/073/2022							
+173		K.V.L.P. (Karime Vanesa Leonor Pérez)	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/04/2022	1273	CEAVI/REVI/095/2022							
+174		Ana Karen Dimas León	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/05/2022	1250	CEAVI/REVI/097/2022							
+175		Diego Alberto Morales López	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/05/2022	1250	CEAVI/REVI/098/2022							
+176		Dora Neli Delgado Aguilar	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		20/05/2022	1250	CEAVI/REVI/108/2022							
+177		Erik Rueda Ortiz | Joselyn Zarco Rocha	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		20/05/2022	1250	CEAVI/REVI/046/2022 | CEAVI/REVI/047/2022							
+178		Luis Armando Aguilar Flores | María del Pilar Flores Monroy | Luis Armando Aguilar Flores	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		20/05/2022	1250	CEAVI/REVI/074/2022 | CEAVI/REVI/075/2022 | CEAVI/REVI/076/2022							
+179		Sandra Isela Ramos Libreros	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/05/2022	1250	CEAVI/REVI/096/2022							
+180		María del Carmen Flores Rauda | N.L.F.	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/05/2022	1245	CEAVI/REVI/109/2021 | CEAVI/REVI/110/2021							
+181		Miguel Angel Lechuga Castillo	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/10/2022	1113	CEAVI/REVI/375/2021							
+182		Cristian Yovani Vargas Preciado	Recomendación	Registro	Plan Reparación	No			Sin Pago		08/01/2023	1017	CEAVI/RELOVI/478/2023 | CEAVI/RELOVI/479/2023							
+183		Yadira García Hernández | Julián García Santés | Celia Hernández Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		30/01/2023	995	CEAVI/REVI/116/2022 | CEAVI/REVI/117/2022 | CEAVI/REVI/122/2022							
+184		René Vallarta Cisneros	Recomendación	Registro	Plan Reparación	No			Sin Pago		01/02/2023	993	CEAVI/RELOVI/1/2023							
+185		Francisco Javier Rogelio Rivera Ruiz	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/02/2023	980	CEAVI/REVI/436/2022							
+186		Bryand Enrique Hernández Jimenez | María Cristina Jímenez Espinosa | Joaquin Hernández García | Xomali Abigail Hernández Jímenez	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		21/02/2023	973	CEAVI/REVI/225/2021 							
+187		Bryand Enrique Hernández Jimenez	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/02/2023	972	CEAVI/REVI/225/2021							
+188		Bryand Enrique Hernández Jimenez | María Cristina Jímenez Espinosa | Joaquin Hernández García | Xomali Abigail Hernández Jímenez	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		22/02/2023	972	CEAVI/REVI/225/2021							
+189		Eddi Santiago Medina Mendoza | Leticia Mendoza Arévalo | Jesús Medina Castillo	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/02/2023	970	CEAVI/REVI/248/2022 | CEAVI/REVI/249/2022 | CEAVI/REVI/250/2022							
+190		Antonio Castillo Ramírez	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/02/2023	967	CEAVI/REVI/194/2022							
+191		Sara Sánchez Hernández 	Recomendación	Registro	Plan Reparación	No			Sin Pago		09/03/2023	957	CEAVI/REVI/177/2022							
+192		Luis Elery Soria Reyes | María Concepción Reyes López 	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/03/2023	945	CEAVI/RELOVI/38/2023 | CEAVI/RELOVI/39/2023							
+193		Ana Yeli Gonzalez Estaño |N.N.A.|D.J.A.G.	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/04/2023	922	CEAVI/REVI267/2022|CEAVI/REVI268/2022							
+194		Karla Daniela Garcia Tello | K.A.P.G.	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/04/2023	922	CEAVI/RELOVI/44/2023|CEAVI/RELOVI/45/2023							
+195		Miguel Omar Arteaga Cabrera| Miriam Cabrera Merino|Miriam Cabrera Merino|Miguel Arteaga Pimentel|Erika Flores Cabrera|Jorge Gustavo Martínez Olivo|Alma Ivonne Martínez Olivo|Jorge Martínez Quintana|Lorena Berenice Martínez Olivo|Elizabeth Martínez Olivo	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/04/2023	922	CEAVI/RELOVI/62/2023|CEAVI/RELOVI/63/2023|CEAVI/RELOVI/64/2023|CEAVI/RELOVI/65/2023|CEAVI/RELOVI/66/2023|CEAVI/RELOVI/67/2023|CEAVI/RELOVI/68/2023|CEAVI/RELOVI/69/2023|CEAVI/RELOVI/70/2023|CEAVI/RELOVI/71/2023							
+196		Hugo Martínez Gorostieta | Silvia León Porcayo | Hugo Martínez León | Guadalupe Jovita Josefina Gorostieta Albarrán | Venancio Zamora Lemus | Alan Ángel Zamora Gorostieta | Julieta Martínez Gorostieta | Yusdari Murillo Martínez | Diana Porcayo y Ascencio | Rocío Trejo Porcayo	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		14/04/2023	921	NA							
+197		Alberto Rodríguez Zamora| Óscar David Beristain Mendieta|Esther Rodríguez Mendieta|Raquel Rodríguez Mendieta|Ana María Mendieta Pluma|Alberto Rodríguez Mendieta	Recomendación	Registro	Plan Reparación	No			Sin Pago		16/04/2023	919	CEAVI/RELOVI/81/2023|CEAVI/RELOVI/82/2023|CEAVI/RELOVI/83/2023|CEAVI/RELOVI/84/2023|CEAVI/RELOVI/85/2023|CEAVI/RELOVI/86/2023							
+198		Wenceslao Flores Lara| Veronica Lara Olvera 	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/04/2023	917	CEAVI/RELOVI/79/2023|CEAVI/RELOVI/80/2023							
+199		N.N.A. M.F.G.F. | Elizabeth Flores Villafaña | Manuel Gutiérrez Romero | Fátima Paola Gutiérrez Flores	Recomendación	Registro	Plan Reparación	No			Sin Pago		19/04/2023	916	CEAVI/RELOVI/75/2023 | CEAVI/RELOVI/76/2023 | CEAVI/RELOVI/77/2023 | CEAVI/RELOVI/78/2023							
+200		Ana Fabiola Juárez Ramírez | José Roberto Montiel Esparza | Javier Iván Hernández González	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/04/2023	915	CEAVI/REVI/263/2022 | CEAVI/REVI/264/2022 | CEAVI/REVI/265/2022							
+201		Aalan Alonso Medina González | Stepanie Medina González | Silvia González Pacheco | Armando Medina Lorenzana	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		25/05/2023	880	NA							
+202		Jose Lopez Camarillo | Julian Damaris Bocanegra Osorno| Dante  Gael  Lopez Bocanegra 	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/05/2023	880	CEAVI/REVI/254/2022|CEAVI/REVI/255/2022|CEAVI/REVI/255/2022							
+203		Marco Antonio Aguilar Blanco| Mario Alberto Aguilar Blanco 	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/05/2023	880	CEAVI/REVI/261/2022|CEAVI/REVI/262/2022							
+204		Luis Elery Soria Reyes|Maria Concepción Reyes Lopez 	Recomendación	Registro	Plan Reparación	No			Sin Pago		01/06/2023	873	CEAVIRELOVI/38/2023|CEAVI/RELOVI39/2023							
+205		N.N.A.|B.C.A.|N.N.A|M.F.C.A| Mariel Albarran Duarte 	Recomendación	Registro	Plan Reparación	No			Sin Pago		02/06/2023	872	CEAVI/RELOVI/105/2023|CEAVI/RELOVI/106/2023|CEAVI/RELOVI/107/2023							
+206		Ana Fabiola Juarez Ramirez|Jose Roberto Montiel Esparza 	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/07/2023	833	CEAVI/REVI/263/2022|CEAVI/REVI/264/2022							
+207		Macrina Torres Mocada 	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/07/2023	826	CEAVI/RELOVI/126/2023							
+208		Pablo Miguel Zuñiga Salazar |Sofia Gomez Zapata 	Recomendación	Registro	Plan Reparación	No			Sin Pago		03/08/2023	810	CEAVI/RELOVI/411/2022|CEAVI/RELOVI/364/2023							
+209		Alan Yosep Rebollo Caneda 	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/REVI/466/2022							
+210		Angel Ramirez Andrade 	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/REVI/471/202							
+211		Ernesto Álvarez Lozada	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/REVI/312/2021							
+212		Ernesto Alvarez Lozada 	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/RELOVI/231/2023							
+213		Fernando Alarcon Cordero 	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/REVI/463/2022							
+214		Jonathan Ignacio Palomino Nuñez 	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/REVI/470/22							
+215		Juan Luis Carrillo Espino 	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/REVI/458/2022							
+216		Rolando Efren Salazar Montero|Maria  Guadalupe Rodriguez Bautista 	Recomendación	Registro	Plan Reparación	No			Sin Pago		04/08/2023	809	CEAVI/REVI/468/2022|CEAVI/REVI/469/2022							
+217		Brian Espindola Reyes| Veronica Nava Mayo 	Recomendación	Registro	Plan Reparación	No			Sin Pago		08/08/2023	805	CEAVI/REVI/136/2022|CEAVI/REVI137/2022							
+218		Arturo Cedillo Valencia| Silvia Valencia 	Recomendación	Registro	Plan Reparación	No			Sin Pago		09/08/2023	804	CEAVI/REVI344/2023|CEAVI/REVI/345/2023							
+219		Brenda Delgado Xochipa |N.N.A.|I.U.D.X.|Berenice Delgado Xochipa 	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/08/2023	799	CEAVI/REVI/350/2023|CEAVI/REVI/351/2023|CEAVI/REVI/352/2023							
+220		M.L.R.P.	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		22/08/2023	791	NA							
+221		Veronica Torres Damian 	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/08/2023	791	CEAVI/RELOVI/389/2023							
+222		Alejandro Israel Díaz Flores | Guadalupe Gabriela Díaz Flores | Georgina Díaz Flores	Recomendación	Registro	Plan Reparación	No			Sin Pago		06/09/2023	776	CEAVI/REVI/441/2022 | CEAVI/REVI/442/2022 | CEAVI/REVI/443/2022							
+223		Juan Carlos Arredondo Franco	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/09/2023	771	CEAVI/REVI/323/2021							
+224		Marcia Ivette Alpizar Ugalde | María Elizabeth Ugalde Celaya	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/09/2023	771	CEAVI/REVI/417/2022 | CEAVI/REVI/418/2022							
+225		Claudia Erika Zenteno Záldivar | José Antonio González Ramírez | Moisés González Zenteno	Recomendación	Registro	Plan Reparación	No			Sin Pago		20/09/2023	762	CEAVI/RELOVI/407/2023 | CEAVI/RELOVI/408/2023 | CEAVI/RELOVI/409/2023							
+226		Jonathan Emmir Hernández Rivera	Recomendación	Registro	Plan Reparación	No			Sin Pago		22/09/2023	760	CEAVI/RELOVI/363/2023							
+227		Alan Omar Atencia Barranco | Maria Victoria Barranco Pérez | Eulogio Fonseca Arreola | Maria Elena Arreola Ayala | Maria Lucia Fonseca Arreola | Gabriela Tellez Zamudio | Danae Zully Keith Tellez Zamudio | Jeniffer Robles Gonzalez | Julieta González Diaz | Josue Piedra Moreno | Leticia Moreno Urquieta | Guadalupe Karen Morales Vargas | Ana Maria Vargas Tenorio | Iker Dominic Atiencia Morales | Katerin Naomi Atencia Morales | Axel Omar Atiencia Morales | Alejandro Said Sánchez Garcia | Josefina Garcia Rodríguez | Gabriela Ruiz Martínez | Maria De Las Mercedes Martinez Maza | Jerzy Elsi Ortiz Ponce | Leticia Maricela Ponce Ramos | Alan Francisco Daniel Menchaca Bazan | Daniel Angel Menchaca Davila | Aaron Piedra Moreno	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		25/9/2023	757	CEAVI/REVI/109/2021 | CEAVI/REVI/110/2021 | CEAVI/REVI/111/2021 | CEAVI/REVI/112/2021 | CEAVI/REVI/113/2021 | CEAVI/REVI/114/2021 | CEAVI/REVI/115/2021 | CEAVI/REVI/116/2021 | CEAVI/REVI/117/2021 | CEAVI/REVI/118/2021 | CEAVI/REVI/119/2021 | CEAVI/REVI/120/2021 | CEAVI/REVI/121/2021 | CEAVI/REVI/122/2021 | CEAVI/REVI/123/2021 | CEAVI/REVI/124/2021 | CEAVI/REVI/125/2021 | CEAVI/REVI/126/2021 | CEAVI/REVI/127/2021 | CEAVI/REVI/128/2021 | CEAVI/REVI/129/2021 | CEAVI/REVI/130/2021 | CEAVI/REVI/131/2021 | CEAVI/REVI/132/2021 | CEAVI/RELOVI/410/2023							
+228		Carlos Rodigo Ruiz de Teresa	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		25/09/2023	757	NA							
+229		Claudia Linares Martínez|Jannet González Torres|Dora Susana Linares Martínez|Ernesto Benjamín Martínez Dávila|Sara Patricia Martínez Dávila|Saul Delgado Martínez	Recomendación	Registro	Plan Reparación	No			Sin Pago		29/09/2023	753	CEAVI/REVI/401/2023|CEAVI/REVI/401/2023 CEAVI/REVI/402/2023|CEAVI/REVI/403/2023|CEAVI/REVI/4042023|CEAVI/REVI/405/2023							
+230		Jorge Granillo Granados 	Conciliación DDHH	Registro	Plan Reparación	No			Sin Pago		29/09/2023	753	CEAVI/RELOVI/477/2023							
+231		Israel Jorge Olvera Quiroga | Samuel Enrique Olvera Quiroga	Recomendación	Registro	Plan Reparación	No			Sin Pago		5/10/2023	747	CEAVI/REVI/244/2022 | CEAVI/REVI/245/2022							
+232		L.C.G	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		6/10/2023	746	NA							
+233		Mario Wladimir García Pérez | María De La Luz Pérez Galicia | Ricardo García Vargas	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/10/2023	741	CEAVI/REVI/368/2022 | CEAVI/REVI/369/2022 | CEAVI/REVI/370/2022							
+234		Ana Yuritzia Yatzzaret García Palacios 	Recomendación	Registro	Plan Reparación	No			Sin Pago		23/10/2023	729	CEAVI/RELOVI/480/2023							
+235		Virginia de la Garza Apátiga 	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		15/11/2023	706	NA							
+236		A.Y.P.R | C.R.H	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		16/11/2023	705	NA							
+237		Abdias Flores Rodríguez	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/REVI/294/2022							
+238		Cynthia Edith Lucio Núñez	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/REVI/343/2022							
+239		Gerson Martínez Romero	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/REVI/341/2022							
+240		Jesús Pérez Martínez	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/REVI/455/2022							
+241		José Rafael Nájera Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/REVI/295/2022							
+242		Luis Ángel Castañeda Huerta | María De los Ángeles Huerta De la Vega | Luis Castañeda Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/RELOVI/561/2023 | CEAVI/RELOVI/562/2023 | CEAVI/RELOVI/563/2023							
+243		Mario Sáenz Zambrana	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/RELOVI/496/2023							
+244		Ramón Segura Rosas | María Antonia Alva Trenado	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/REVI/257/2022 | CEAVI/REVI/258/2022							
+245		Sergio Ángeles Camacho	Recomendación	Registro	Plan Reparación	No			Sin Pago		21/11/2023	700	CEAVI/REVI/293/2022							
+246		María Santa Pérez García | René López Pérez | Jorge Luis López Pérez | Ernesto López | Magdaleno Sánchez García	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		05/12/2023	686	NA							
+247		Martha Azucena Martínez Baca Lorrabaquio | Rosa Martha Lorrabaquio Palomo | Rodolfo Martínez Baca López	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/12/2023	677	CEAVI/RELOVI/557/2023 | CEAVI/RELOVI/558/2023 | CEAVI/RELOVI/559/2023							
+248		Cristian Yovani Vargas Preciado | Luz Preciado Moreno	Recomendación	Registro	Plan Reparación	No			Sin Pago		5/1/2024	655	CEAVI/RELOVI/478/2023 | CEAVI/RELOVI/479/2023							
+249		Armando Ruiz Briones | Armando Ruiz Escamilla | Rosa María Briones Cruz	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		22/1/2024	638	CEAVI/RELOVI/1/2024 | CEAVI/RELOVI/2/2024 | CEAVI/RELOVI/3/2024							
+250		Martin Zenaido Méndez Medina	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		22/1/2024	638	NA							
+251		Josefa Loyola Laureano | Yareli Guadalupe Yañez Dueña	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		7/2/2024	622	NA							
+252		Elisa Xolalpa Martinez | Javier Flores Xolalpa | Carmen Martinez Jimenez	Recomendación	Registro	Plan Reparación	No			Sin Pago		5/3/2024	595	CEAVI/REVI/027/2022 | CEAVI/REVI/031/2022 | CEAVI/RELOVI/564/2023							
+253		Christian Felipe Valdez García, Leticia García Cisneros	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/3/2024	589	CEAVI/RELOVI/48/2024, CEAVI/RELOVI/49/2024							
+254		Cristal Betancourt Pacheco, Kelly Cristal Soto Betancourt	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/3/2024	589	CEAVI/RELOVI/28/2024, CEAVI/RELOVI/29/2024							
+255		Jessie Alejandro Montaño Sánchez	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/3/2024	589	CEAVI/RELOVI/560/2023							
+256		Jorge Arturo Trujano Arroyo, Arturo Trujano Quintero, Rosa Hilda Arroyo García	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/3/2024	589	CEAVI/RELOVI/34/2024, CEAVI/RELOVI/35/2024, CEAVI/RELOVI/36/2024							
+257		N.N.A., M. A. E. O., N.N.A., B. E. O., Barbara Margarita Ortigoza Sequeiros	Recomendación	Registro	Plan Reparación	No			Sin Pago		11/3/2024	589	CEAVI/RELOVI/94/2024, CEAVI/RELOVI/95/2024, CEAVI/RELOVI/96/2024							
+258		Francisco Alonso García Guerrero, Cecilia Lara Maldonado, Ángel Eduardo García Lara, Elonso Efraín García Lara, Edgar Isaac García Lara	Recomendación	Registro	Plan Reparación	No			Sin Pago		12/3/2024	588	CEAVI/RELOVI/38/2024, CEAVI/RELOVI/39/2024, CEAVI/RELOVI/40/2024, CEAVI/RELOVI/41/2024, CEAVI/RELOVI/42/2024							
+259		Ismael Pérez Miranda	Recomendación	Registro	Plan Reparación	No			Sin Pago		12/3/2024	588	CEAVI/RELOVI/61/2024							
+260		Juan Andrés Ramírez Valtierra, Andrés Ramírez López	Recomendación	Registro	Plan Reparación	No			Sin Pago		12/3/2024	588	CEAVI/RELOVI/58/2024, CEAVI/RELOVI/122/2024							
+261		Luis Mauro Méndez Sosa	Recomendación	Registro	Plan Reparación	No			Sin Pago		12/3/2024	588	CEAVI/RELOVI/50/2024							
+262		Mario Hugo Cuevas González, Liliana Velázquez Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		12/3/2024	588	CEAVI/RELOVI/43/2024, CEAVI/RELOVI/44/2024							
+263		Darsy Mariel Lozada Álvarez, María Isabel Álvarez Solano, Valeria Vianey Lozada Álvarez, José Luis Lozada Álvarez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		13/3/2024	587	CEAVI/RELOVI/365/2023, CEAVI/RELOVI/366/2023, CEAVI/RELOVI/414/2023, CEAVI/RELOVI/415/2023							
+264		Joan Manuel Carrera Villalobos, José Alberto Carrera Villalobos, María De La Luz Villalobos Núñez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		13/3/2024	587	CEAVI/REVI/100/2022, CEAVI/REVI/101/2022, CEAVI/REVI/102/2022							
+265		Rubén Santana Paniagua	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/3/2024	587	CEAVI/REVI/407/2022							
+266		NA	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		19/3/2024	581	NA							
+267		Graciela María De La Luz Cifuentes Gómez Pezuela | Gatziela Sol Cifuentes Gómez | Raúl Manuel Cifuentes Gómez | Emiliano Benjamin Vargas Rodriguez | Cleila Cifuentes Vargas Rodriguez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		20/3/2024	580	CEAVI/REVI/128/2022 | CEAVI/REVI/129/2022 | CEAVI/REVI/130/2022 | CEAVI/REVI/131/2022 | CEAVI/REVI/132/2022							
+268		NA	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		20/3/2024	580	NA							
+269		Alisson Mariel García Ojeda | Karla Daniela Ojeda Cerrilla | Jessica Ojeda Cerrilla | Kevin Josafat Huerta Ojeda	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		4/4/2024	565	CEAVI/RELOVI/589/2023 | CEAVI/RELOVI/590/2023 | CEAVI/RELOVI/591/2023 | CEAVI/RELOVI/592/2023							
+270		Jorge Eduardo Castro Rojas | Gregoria Rojas Arreguin	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		4/4/2024	565	CEAVI/RELOVI/115/2023 | CEAVI/RELOVI/116/2023							
+271		Susana Garrido Ramírez | Maria Magdalena De Jesús Ramírez Romero | Alfredo Garrido Lino | Benny Yussel González Garrido | Joan Manuel González Garrido | Guadalupe Garrido Ramírez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		4/4/2024	565	CEAVI/REVI/237/2021 | CEAVI/REVI/238/2021 | CEAVI/REVI/239/2021 | CEAVI/REVI/240/2021 | CEAVI/REVI/241/2021 | CEAVI/RELOVI/543/2023							
+272		Diego Jiménez Martínez	Recomendación	Registro	Plan Reparación	No			Sin Pago		8/4/2024	561	CEAVI/RELOVI/78/2024							
+273		Eric Romero Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		8/4/2024	561	CEAVI/RELOVI/69/2024							
+274		Macario Durán Tapia	Recomendación	Registro	Plan Reparación	No			Sin Pago		8/4/2024	561	CEAVI/RELOVI/7/2024							
+275		Manuel León Roldán | Manuel León Ríos | Tatiana Esmeralda Ríos Contreras | Elsa Roldán	Recomendación	Registro	Plan Reparación	No			Sin Pago		8/4/2024	561	CEAVI/RELOVI/51/2024 | CEAVI/RELOVI/52/2024 | CEAVI/RELOVI/53/2024 | CEAVI/RELOVI/54/2024							
+276		Marco Antonio Gutiérrez Razo	Recomendación	Registro	Plan Reparación	No			Sin Pago		8/4/2024	561	CEAVI/RELOVI/16/2024							
+277		Judith Del Río Aguilar	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/4/2024	560	CEAVI/RELOVI/4/2024							
+278		Laura Reyes Reyes | N.N.A., L.Y.R.R., N.N.A. | A.U.C.R. | Maylo Azael Colula Reyes | Modesta Reyes Nava	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/4/2024	560	CEAVI/RELOVI/174/2024 | CEAVI/RELOVI/175/2024 | CEAVI/RELOVI/176/2024 | CEAVI/RELOVI/177/2024 | CEAVI/RELOVI/178/2024							
+279		N.N.A., J.J.O.D.V. | Sara Del Valle Ramírez	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/4/2024	560	CEAVI/RELOVI/118/2024 | CEAVI/RELOVI/119/2024							
+280		Oswaldo Salvador Juárez Galindo	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/4/2024	560	CEAVI/RELOVI/99/2024							
+281		Patricia Negrete Aguirre	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/4/2024	560	CEAVI/RELOVI/104/2024							
+282		Victor Manuel Mijares Esparza | Julio César Mondragón Beltrán	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/4/2024	560	CEAVI/RELOVI/111/2024 | CEAVI/RELOVI/112/2024							
+283		Arturo Daniel Popoca Ortiz | Maria Luisa Ortiz Garcia | Mauro Popoca Perez	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/5/2024	525	CEAVI/REVI/362/2022 | CEAVI/REVI/363/2022 | CEAVI/REVI/364/2022							
+284		Leslie Gabriela Castillo Garces | Mirna Patricia Castillo Garces | Lilian Cecilia Castillo Garces | Julian Adolfo Castillo Garces	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/5/2024	525	CEAVI/REVI/346/2022 | CEAVI/REVI/347/2022 | CEAVI/REVI/348/2022 | CEAVI/REVI/349/2022							
+285		N.N.A. F.G.G. | Reyna Garcia Avendaño	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		14/5/2024	525	CEAVI/RELOVI/165/2024 | CEAVI/RELOVI/165/2024							
+286		Silvia Socorro Cano Vazquez	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/5/2024	525	CEAVI/RELOVI/102/2024							
+287		Victor Herrera Contreras | Maria Del Carmen Contreras Vasconcelos	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		14/5/2024	525	CEAVI/RELOVI/314/2024 | CEAVI/RELOVI/315/2024 							
+288		Carlos Ignacio Chavarría Luna	Recomendación	Registro	Plan Reparación	No			Sin Pago		15/7/2024	463	CEAVI/REVI/307/2022							
+289		Hilario Rodríguez Casarrubias	Recomendación	Registro	Plan Reparación	No			Sin Pago		15/7/2024	463	CEAVI/REVI/450/2022							
+290		María Elena Mora Ubaldo	Recomendación	Registro	Plan Reparación	No			Sin Pago		15/7/2024	463	CEAVI/REVI/288/2022							
+291		N.N.A., D.L.M.R.	Recomendación	Registro	Plan Reparación	No			Sin Pago		15/7/2024	463	CEAVI/REVI/218/2022							
+292		Hector Miranda Linare | José Miranda Alcántara | Amelia Linares López	Recomendación	Registro	Plan Reparación	No			Sin Pago		16/7/2024	462	CEAVI/RELOVI/10/2024 | CEAVI/RELOVI/11/2024 | CEAVI/RELOVI/12/2024							
+293		María Isabel Raygosa Vera | Martha Raygoza Vera | Karla Concepción Pérez Raygosa | Jaime Pérez Raygosa | Enrique Javier Pérez	Recomendación	Registro	Plan Reparación	No			Sin Pago		16/7/2024	462	CEAVI/RELOVI/235/2024 | CEAVI/RELOVI/236/2024 | CEAVI/RELOVI/237/2024 | CEAVI/RELOVI/238/2024 | CEAVI/RELOVI/239/2024							
+294		Reyna Guadalupe Pardo Camarillo	Recomendación	Registro	Plan Reparación	No			Sin Pago		16/7/2024	462	CEAVI/RELOVI/9/2024							
+295		Alejandro Antonio Ruíz López | María De La Luz López Torres | N.N.A. K.D.P.R.	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/7/2024	460	CEAVI/RELOVI/376/2024 | CEAVI/RELOVI/377/2024 | CEAVI/RELOVI/378/2024							
+296		César Abdi González Pichardo	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/7/2024	460	CEAVI/RELOVI/55/2024							
+297		Edwin Agonizante Martínez | Petra Martínez Cuenca	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/7/2024	460	CEAVI/RELOVI/380/2024 | CEAVI/RELOVI/381/2024							
+298		Heriberto Gamboa Solís | Angélica María Gamboa Solís	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/7/2024	460	CEAVI/RELOVI/383/2024 | CEAVI/RELOVI/384/2024							
+299		Humberto Tapia Medina	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/7/2024	460	CEAVI/RELOVI/382/2024							
+300		Martín Lozada Rodríguez | Alejandra Guadalupe Pérez Chavez	Recomendación	Registro	Plan Reparación	No			Sin Pago		18/7/2024	460	CEAVI/RELOVI/395/2024 | CEAVI/RELOVI/396/2024							
+301		Christian Rojas Téllez | María Del Rocío Téllez Vidal	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/7/2024	454	CEAVI/REVI/388/2022 | CEAVI/REVI/389/2022							
+302		Claudia Uloa Martínez | Regina Martínez Guadalupe | Marcela Uloa Martínez | Marco Antonio Uloa Martínez	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/7/2024	454	CEAVI/REVI/419/2022 | CEAVI/REVI/420/2022 | CEAVI/REVI/421/2022 | CEAVI/REVI/422/2022							
+303		Juan Carlos Arellano Anica | Aurora Arellano Anica | Sandra Aidé Cano Montero	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/7/2024	454	CEAVI/REVI/445/2022 | CEAVI/REVI/446/2022 | CEAVI/REVI/447/2022							
+304		Martha Patricia García Picazo	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/7/2024	454	CEAVI/REVI/379/2022							
+305		Ricardo Reséndiz Rodríguez | Israel Reséndiz Rodríguez | Irma Juana Rodríguez	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/7/2024	454	CEAVI/REVI/385/2022 | CEAVI/REVI/386/2022 | CEAVI/REVI/387/2022							
+306		Fernando Zárate Castillo	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/7/2024	453	CEAVI/REVI/444/2022							
+307		Gustavo Vázquez Flores | Isela Vázquez Flores | Maclovio Vázquez Morales | Graciela Flores Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/7/2024	453	CEAVI/REVI/428/2022 | CEAVI/REVI/429/2022 | CEAVI/REVI/430/2022 | CEAVI/REVI/431/2022							
+308		José Luis Soto Aguilar	Recomendación	Registro	Plan Reparación	No			Sin Pago		25/7/2024	453	CEAVI/REVI/432/2022							
+309		Fabiola Morales Moreno, Raymundo Méndez Rosas, N.N.A., A.F.M.M., N.N.A., D.D.M.M., Estefanía Fabiola Méndez Morales, Raymundo Méndez Morales	Recomendación	Registro	Plan Reparación	No			Sin Pago		31/7/2024	447	CEAVI/RELOVI/168/2024, CEAVI/RELOVI/169/2024, CEAVI/RELOVI/170/2024, CEAVI/RELOVI/171/2024, CEAVI/RELOVI/172/2024, CEAVI/RELOVI/173/2024							
+310		Fernando Hernández Santoyo	Recomendación	Registro	Plan Reparación	No			Sin Pago		31/7/2024	447	CEAVI/RELOVI/167/2024							
+311		Francisco Alvarado Hernández, Donovan Uriel Alvarado Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		31/7/2024	447	CEAVI/RELOVI/120/2024, CEAVI/RELOVI/121/2024							
+312		José Luis Romo Soriano, Rosalba Torres Ramos, N.N.A., L.V.R.T., N.N.A., M.A.R.T. 	Recomendación	Registro	Plan Reparación	No			Sin Pago		31/7/2024	447	CEAVI/RELOVI/334/2024, CEAVI/RELOVI/335/2024, CEAVI/RELOVI/336/2024, CEAVI/RELOVI/337/2024 							
+313		Margarita Icxel Lugo Maya	Recomendación	Registro	Plan Reparación	No			Sin Pago		31/7/2024	447	CEAVI/RELOVI/116/2024							
+314		Adán Jiménez Jaime, Dante Máximo Jiménez Torres, Noemi Torres Osorio	Recomendación	Registro	Plan Reparación	No			Sin Pago		5/8/2024	442	CEAVI/RELOVI/84/2024, CEAVI/RELOVI/85/2024, CEAVI/RELOVI/86/2024							
+315		Edgar Alejandro Aguirre López	Recomendación	Registro	Plan Reparación	No			Sin Pago		5/8/2024	442	CEAVI/RELOVI/341/2024							
+316		Isis Gabriela Becerra Arce	Recomendación	Registro	Plan Reparación	No			Sin Pago		5/8/2024	442	CEAVI/RELOVI/103/2024							
+317		Teresa Ivonne Zarate Guerra	Recomendación	Registro	Plan Reparación	No			Sin Pago		5/8/2024	442	CEAVI/RELOVI/110/2024							
+318		N.N.A. M.X.T.D.	Recomendación	Registro	Plan Reparación	No			Sin Pago		26/8/2024	421	CEAVI/RELOVI/37/2024							
+319		Andrés García García, Raúl David Luna Sánchez, Eduardo Jiménez Colorado	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/8/2024	420	CEAVI/RELOVI/45/2024, CEAVI/RELOVI/46/2024, CEAVI/RELOVI/47/2024							
+320		Cristopher Garcés Godinez, Yesica Olivia Bocanegra Nava, Jessica Scarlett Garcés Bocanegra, Grecia Stephania Garcés Bocanegra	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/8/2024	420	CEAVI/RELOVI/62/2024, CEAVI/RELOVI/63/2024, CEAVI/RELOVI/64/2024, CEAVI/RELOVI/65/2024							
+321		José Antonio Sánchez Hernández, Francisco Javier Sánchez Hernández, Martha Cuadra Herrera, Alejandra Hernández Villanueva	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/8/2024	420	CEAVI/RELOVI/30/2024, CEAVI/RELOVI/31/2024, CEAVI/RELOVI/32/2024, CEAVI/RELOVI/33/2024							
+322		Nicole Daniela Vela Padilla | José Antonio Vela Sánchez | Julieta Gabriela Padilla Bocanegra	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/08/2024	420	CEAVI/RELOVI/25/2024 | CEAVI/RELOVI/26/2024 | CEAVI/RELOVI/27/2024							
+323		Nicole Daniela Vela Padilla, José Antonio Vela Sánchez, Julieta Gabriela Padilla Bocanegra	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/8/2024	420	CEAVI/RELOVI/25/2024, CEAVI/RELOVI/26/2024, CEAVI/RELOVI/27/2024							
+324		Rosaura Reyes Jacobo	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/8/2024	420	CEAVI/RELOVI/556/2023							
+325		Mario Hugo Cuevas González | Liliana Velázquez Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/08/2024	419	CEAVI/RELOVI/43/2024 | CEAVI/RELOVI/44/2024							
+326		Mario Hugo Cuevas González, Liliana Velázquez Hernández	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/8/2024	419	CEAVI/RELOVI/43/2024, CEAVI/RELOVI/44/2024							
+327		Ramiro Salazar Lázaro	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/8/2024	419	CEAVI/RELOVI/56/2024							
+328		Ramiro Salazar Lázaro| Luz Preciado Moreno	Recomendación	Registro	Plan Reparación	No			Sin Pago		28/08/2024	419	CEAVI/RELOVI/56/2024							
+329		NA	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		6/9/2024	410	NA							
+330		Alexis de Jesús Azamar Salome, Margarita Salome Jiménez, Isidro Azamar Cervantes, Aleikee Isidro Azamar Salome, Juan Carlos Azamar Salome, Yasmin Franco González, Sandro Yamil Azamar Franco	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/9/2024	407	CEAVI/REVI/196/2022. CEAVI/REVI/197/2022, CEAVI/REVI/198/2022, CEAVI/REVI/199/2022, CEAVI/REVI/200/2022, CEAVI/REVI/201/2022, CEAVI/REVI/202/2022, CEAVI/REVI/203/2022							
+331		Alfonso Méndez Escobar, Alma Rosa Téllez Mondragon	Recomendación	Registro	Plan Reparación	No			Sin Pago		9/9/2024	407	CEAVI/RELOVI/108/2024, CEAVI/RELOVI/109/2024							
+332		C.A.H. (Cristoper Aguilar Hernández), K.E.R.M. (Karla Elena Ramírez Murieta), Maribel Murrieta Mejía, Andrés Ramírez Almanza, Natali Hernández Vallejo, Itzel De Monserrat Ramírez Murrieta, N.N.A. C.L.R.M., N.N.A. A.D.C.R., Adrián Hernández Vallejo	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		9/9/2024	407	CEAVI/REVI/377/2020, CEAVI/REVI/378/2020, CEAVI/REVI/103/2021, CEAVI/REVI/104/2021, CEAVI/REVI/105/2021, CEAVI/REVI/178/2021, CEAVI/RELOVI/323/2024, CEAVI/RELOVI/324/2024, CEAVI/RELOVI/325/2024							
+333		Antonio García Mejía	Recomendación	Registro	Plan Reparación	No			Sin Pago		10/9/2024	406	CEAVI/REVI/225/2023							
+334		Ernesto Arreola Reyes	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		13/9/2024	403	NA							
+335		Fausto Sánchez Rodríguez, Erika Alexandra Zamora López, N.N.A. D.A.S.Z., N.N.A. E.U.S.Z.	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/9/2024	403	CEAVI/REVI/104/2022, CEAVI/REVI/105/2022, CEAVI/REVI/106/2022, CEAVI/REVI/107/2022							
+336		Norma Leonor Arenas Veloz	Recomendación	Registro	Plan Reparación	No			Sin Pago		13/9/2024	403	CEAVI/REVI/338/2022							
+337		Humberto Viaña Cueto, Stephanie Santos Sanchez, N.N.A., S.Y.F.S., N.N.A., I.A.F.S., Yair Armando Frias Rivera, N.N.A., M.A.F.S.	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		17/9/2024	399	CEAVI/RELOVI/71/2024, CEAVI/RELOVI/480/2024, CEAVI/RELOVI/481/2024, CEAVI/RELOVI/482/2024, CEAVI/RELOVI/483/2024, CEAVI/RELOVI/484/2024							
+338		Rosa Isela Maximino De Jesús, N.N.A., A.M.D.J., Martha Maximino De Jesús	Recomendación	Registro	Plan Reparación	No			Sin Pago		17/9/2024	399	CEAVI/RELOVI/575/2024 | CEAVI/RELOVI/576/2024 | CEAVI/RELOVI/577/2024							
+339		Ricardo Vergara Contreras	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		26/9/2024	390	NA							
+340		Jesús Acosta Espejel, Rosa María Espejel Martínez, Isaias Acosta Rodríguez	Recomendación	Registro	Plan Reparación	No			Sin Pago		27/9/2024	389	CEAVI/REVI/433/2022, CEAVI/REVI/434/2022, CEAVI/REVI/435/2022							
+341		Viviana Mariana Romero Sánchez, Liliana Sánchez Pérez, N.N.A., D.C.R.S., N.N.A., E.Y.R.S., N.N.A., M.N.S.R. y N.N.A. S.R.S.	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		27/9/2024	389	CEAVI/RELOVI/98/2023, CEAVI/RELOVI/99/2023, CEAVI/RELOVI/100/2023, CEAVI/RELOVI/101/2023, CEAVI/RELOVI/102/2023, CEAVI/RELOVI/103/2023							
+342		Gabriela Hernández Arreola	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		30/9/2024	386	NA							
+343		Jesús Acosta Espejel, Rosa María Espejel Martínez, Isaias Acosta Rodríguez	Recomendación	Registro	Plan Reparación	No			Sin Pago		4/10/2024	382	CEAVI/REVI/433/2022, CEAVI/REVI/434/2022, CEAVI/REVI/435/2022							
+344		Denys Seliced Galvan Vidal	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		7/10/2024	379	NA							
+345		Edwin Israel Galván Vidal	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		7/10/2024	379	NA							
+346		Graciela Vidal Olvera	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		7/10/2024	379	NA							
+347		Francisco Erick Reyes Guerrero | Elizabeth Fernández Susano	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/10/2024	372	CEAVI/REVI/412/2022 | CEAVI/REVI/413/2022							
+348		Montserrat Gude Carbonell | Patricia Gude Carbonell	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/10/2024	372	CEAVI/RELOVI/105/2024 | CEAVI/RELOVI/106/2024							
+349		Nadia Daniela Sánchez Martínez | María Guadalupe Martínez Gutiérrez | N.N.A., P.R.C.S. | Jesús Francisco Sánchez Jasso	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/10/2024	372	CEAVI/RELOVI/166/2023 | CEAVI/RELOVI/167/2023 | CEAVI/RELOVI/168/2023 | CEAVI/RELOVI/169/2023							
+350		Raúl Meléndez Montes de Oca	Recomendación	Registro	Plan Reparación	No			Sin Pago		14/10/2024	372	CEAVI/RELOVI/326/2024							
+351		Wenceslao Flores | Lara Verónica Lara Olvera	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		14/10/2024	372	CEAVI/RELOVI/79/2023 | CEAVI/RELOVI/80/2023							
+352		Norma Valeria Jimenez Murillo | Norma Guadalupe Murillo Bedolla | Esmeralda Liliana Delgadillo Murillo | Alizul Sulem Delgadillo Murillo | Adrian Delgadillo Murillo	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		8/11/2024	347	CEAVI/REVI/123/2022 | CEAVI/REVI/124/2022 | CEAVI/REVI/125/2022 | CEAVI/REVI/126/2022 | CEAVI/REVI/127/2022							
+353		Guillermo González Gil	Opinión Técnica	Registro	Opinión Técnica	No			Sin Pago		28/11/2024	327	NA							
+354		Edith López Guzmán	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/12/2024	301	CEAVI/RELOVI/21/2024 | CEAVI/RELOVI/22/2024 | CEAVI/RELOVI/23/2024 | CEAVI/RELOVI/24/2024							
+355		Edgar Gerardo Meléndez De Castilla | Guadalupe De Castilla De Santiago | Rafael Meléndez Santiago	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/12/2024	301	CEAVI/RELOVI/18/2024 | CEAVI/RELOVI/19/2024 | CEAVI/RELOVI/20/2024							
+356		N.N.A. D.G.P. (Daniela González Pérez) | María De Los Ángeles González Pérez	Delito	Registro	Compensación Subsidiaria	No			Sin Pago		24/12/2024	301	CEAVI/REVI/400/2021 | CEAVI/REVI/401/2021							
+357		Víctor Manuel Martínez Casillas | José Antonio Martínez Casillas	Recomendación	Registro	Plan Reparación	No			Sin Pago		24/12/2024	301	CEAVI/RELOVI/113/2024 | CEAVI/RELOVI/114/2024							
+358		Evangelina García Martínez	Recomendación	Amparo	Plan Reparación	No			Sin Pago											
+359		Carlos Daniel Serrano Moreno	Recomendación	Amparo	Plan Reparación	No			Sin Pago											
+360		Francisco Morales Puentes	Recomendación	Amparo	Plan Reparación	No			Sin Pago											
+361		Mireya Rodriguez Martinez, Jorge Alejandro Jurado Rentería, Adrían Alejandro Jurado Rentería, Rosa María Rentería Erreguín	Recomendación	Amparo	Plan Reparación	No			Sin Pago											
+362		Monica Ortega López	Recomendación	Amparo	Plan Reparación	No			Sin Pago											
+363		Maria Guadalupe Loyola Gracia	Recomendación	Amparo		No			Sin Pago											
+364		Ramon Gutierrez Alejandre				No			Sin Pago											
+365		Benito Lazaro Cabaldon		Amparo		No			Sin Pago											
+366		Erika Nikteha Flores Gutierrez			Opinión Técnica	No			Sin Pago											
+367		Hector Soria Flores		Amparo		No			Sin Pago											
